@@ -15,8 +15,8 @@ import { cn } from "@/lib/utils";
 
 const INDUSTRIES_HREF = "#industries";
 
-export function Nav() {
-  const [scrolled, setScrolled] = useState(false);
+export function Nav({ solid = false }: { solid?: boolean }) {
+  const [scrolledPast, setScrolledPast] = useState(false);
   const [open, setOpen] = useState(false);
   const [hovered, setHovered] = useState<string | null>(null);
   const [dropdown, setDropdown] = useState(false);
@@ -24,16 +24,22 @@ export function Nav() {
   const reduceMotion = useReducedMotion();
   const pathname = usePathname();
 
+  // `solid` is for pages with no dark hero behind the nav (e.g. the blog) —
+  // the white-on-transparent variant below would be unreadable there, so
+  // those pages force the scrolled/ink styling from the very first paint.
+  const scrolled = solid || scrolledPast;
+
   // Homepage-section anchors need a leading "/" from any other route.
   const resolve = (href: string) =>
     href.startsWith("#") && pathname !== "/" ? `/${href}` : href;
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 40);
+    if (solid) return;
+    const onScroll = () => setScrolledPast(window.scrollY > 40);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  }, [solid]);
 
   // The full-screen menu must not leave the page scrollable underneath it.
   useEffect(() => {
@@ -59,12 +65,12 @@ export function Nav() {
           className="flex items-center gap-2.5"
           aria-label={`${site.name} home`}
         >
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-brandGreen">
+          <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-brandGreen">
             <svg
               viewBox="0 0 64 64"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
+              className="h-6 w-6"
               aria-hidden
             >
               <path
@@ -265,12 +271,12 @@ export function Nav() {
           >
             <div className="flex h-[72px] items-center justify-between px-6">
               <span className="flex items-center gap-2.5">
-                <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-brandGreen">
+                <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-brandGreen">
                   <svg
                     viewBox="0 0 64 64"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-5 w-5"
+                    className="h-6 w-6"
                     aria-hidden
                   >
                     <path

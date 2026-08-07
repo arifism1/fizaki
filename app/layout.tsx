@@ -26,6 +26,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: { default: title, template: "%s · arifwork" },
   description: site.description,
+  icons: {
+    icon: "/favicon.svg",
+  },
   keywords: [
     "AI marketing agency India",
     "missed call automation",

@@ -10,12 +10,12 @@ export function Footer() {
         <div className="flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
           <div>
             <span className="flex items-center gap-2.5">
-              <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-brandGreen">
+              <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-brandGreen">
                 <svg
                   viewBox="0 0 64 64"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
+                  className="h-6 w-6"
                   aria-hidden
                 >
                   <path

@@ -6,6 +6,7 @@ import { FounderMemo } from "@/components/sections/founder-memo";
 import { Hero } from "@/components/sections/hero";
 import { HowItWorks } from "@/components/sections/how-it-works";
 import { Industries } from "@/components/sections/industries";
+import { LatestWriting } from "@/components/sections/latest-writing";
 import { Nav } from "@/components/sections/nav";
 import { Outcomes } from "@/components/sections/outcomes";
 import { Problem } from "@/components/sections/problem";
@@ -31,6 +32,7 @@ export default function Home() {
         <Quote />
         <FounderMemo />
         <Faq />
+        <LatestWriting />
         <FinalCta />
       </main>
       <Footer />
