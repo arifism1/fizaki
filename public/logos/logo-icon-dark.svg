@@ -1,0 +1,12 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark version for light backgrounds -->
+
+  <!-- Left curve of receiver -->
+  <path d="M 20 28 Q 20 24 24 24 L 32 24 Q 36 24 36 28" stroke="#0F0F0F" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Right curve of receiver -->
+  <path d="M 28 24 Q 28 24 32 28 L 40 36 Q 44 40 40 44" stroke="#0F0F0F" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Checkmark -->
+  <path d="M 16 36 L 20 40 L 26 32" stroke="#0F0F0F" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

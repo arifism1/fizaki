@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Zap } from "lucide-react";
 
 import { footer, site } from "@/lib/content";
 import { INDUSTRIES } from "@/lib/industries";
@@ -12,7 +11,38 @@ export function Footer() {
           <div>
             <span className="flex items-center gap-2.5">
               <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-brandGreen">
-                <Zap size={17} className="fill-white text-white" aria-hidden />
+                <svg
+                  viewBox="0 0 64 64"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5"
+                  aria-hidden
+                >
+                  <path
+                    d="M 20 28 Q 20 24 24 24 L 32 24 Q 36 24 36 28"
+                    stroke="white"
+                    strokeWidth="2.5"
+                    fill="none"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  <path
+                    d="M 28 24 Q 28 24 32 28 L 40 36 Q 44 40 40 44"
+                    stroke="white"
+                    strokeWidth="2.5"
+                    fill="none"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  <path
+                    d="M 16 36 L 20 40 L 26 32"
+                    stroke="white"
+                    strokeWidth="2.5"
+                    fill="none"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
               </span>
               <span className="text-[17px] font-semibold lowercase text-ink">
                 {site.wordmark}
