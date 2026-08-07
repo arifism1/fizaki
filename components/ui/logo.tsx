@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export interface LogoProps {
   variant?: "mark" | "icon" | "horizontal" | "wordmark" | "app-icon";
   size?: "sm" | "md" | "lg" | "xl";
