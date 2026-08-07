@@ -2,26 +2,135 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --canvas: #f7f7f5;
+    --ink: #0f0f0f;
+    --hairline: #e4e3de;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    /* useScroll measures the hero against a positioned offset parent. */
+    position: relative;
+    background-color: var(--canvas);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Fixed nav is 4.5rem; keep anchor targets clear of it. */
+  [id] {
+    scroll-margin-top: 6rem;
+  }
+
+  /* Skip the mobile double-tap-to-zoom delay so every tap registers on the
+     first touch instead of waiting ~300ms to see if a second tap follows. */
+  button,
+  a {
+    touch-action: manipulation;
+  }
+
+  ::selection {
+    background-color: var(--ink);
+    color: #ffffff;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--ink);
+    outline-offset: 3px;
+    border-radius: 4px;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  /* The one dividing rule on the site. Dotted, never solid. */
+  .dotted-x {
+    background-image: repeating-linear-gradient(
+      to right,
+      #d6d5d0 0 3px,
+      transparent 3px 8px
+    );
+  }
+
+  .dotted-y {
+    background-image: repeating-linear-gradient(
+      to bottom,
+      #d6d5d0 0 3px,
+      transparent 3px 8px
+    );
+  }
+
+  /* Hero heading: serif at display size needs its own optical tightening. */
+  .display-tight {
+    letter-spacing: -0.02em;
+    line-height: 1.05;
+  }
+
+  .heading-tight {
+    letter-spacing: -0.015em;
+    line-height: 1.12;
+  }
+
+  .eyebrow {
+    @apply text-[11px] font-medium uppercase tracking-[0.14em] text-inkMuted;
+  }
+
+  /* Hides the scrollbar on the mobile-swipeable card fan. */
+  .no-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Lead-leak calculator range inputs. Track fill is painted inline as a
+     gradient; the thumb borrow the per-industry accent via --fill. */
+  .leak-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 6px;
+    border-radius: 9999px;
+    outline: none;
+    cursor: pointer;
+  }
+  .leak-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 9999px;
+    background: #ffffff;
+    border: 3px solid var(--fill, #0f0f0f);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  .leak-slider::-moz-range-thumb {
+    width: 22px;
+    height: 22px;
+    border-radius: 9999px;
+    background: #ffffff;
+    border: 3px solid var(--fill, #0f0f0f);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
