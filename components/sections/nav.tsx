@@ -50,6 +50,7 @@ export function Nav({ solid = false }: { solid?: boolean }) {
   }, [open]);
 
   return (
+    <>
     <header
       className={cn(
         "fixed inset-x-0 top-0 z-50 transition-all duration-300",
@@ -258,17 +259,18 @@ export function Nav({ solid = false }: { solid?: boolean }) {
           </button>
         </div>
       </div>
+    </header>
 
-      {/* Mobile overlay */}
-      <AnimatePresence>
-        {open && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.35, ease: EASE }}
-            className="fixed inset-0 z-50 overflow-y-auto bg-canvas md:hidden"
-          >
+    {/* Mobile overlay */}
+    <AnimatePresence>
+      {open && (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.35, ease: EASE }}
+          className="fixed inset-0 z-50 overflow-y-auto bg-canvas md:hidden"
+        >
             <div className="flex h-[72px] items-center justify-between px-6">
               <span className="flex items-center gap-2.5">
                 <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-brandGreen">
@@ -423,6 +425,6 @@ export function Nav({ solid = false }: { solid?: boolean }) {
           </motion.div>
         )}
       </AnimatePresence>
-    </header>
+    </>
   );
 }
