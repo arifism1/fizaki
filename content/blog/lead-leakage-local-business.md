@@ -11,7 +11,6 @@ publishDate: "2026-09-03"
 updatedDate: "2026-09-03"
 accent: "brandPurple"
 schema: ["BlogPosting", "FAQPage"]
-author: "Arif Ahmed"
 ---
 
 Lead leakage is the loss of potential customers at points in your funnel where nobody is watching — unanswered calls, slow replies, unqualified consultations, no-shows, dead quotes, forgotten follow-ups and unrequested reviews. Most local businesses lose more revenue to leakage than they would gain from doubling their marketing budget, and almost none of it is recorded anywhere.
@@ -32,7 +31,7 @@ Lead leakage is the loss of potential customers at points in your funnel where n
 
 **Why it is the biggest leak:** A caller is the highest-intent lead you will ever get — they have already chosen to act. And most callers who reach a busy line do not leave a voicemail or call back.
 
-**The fix:** Automated missed-call response. Any unanswered call triggers a WhatsApp message within 60 seconds that opens a conversation and offers a booking. See [how to set that up](https://arifwork.com/blog/how-to-set-up-ai-missed-call-receptionist).
+**The fix:** Automated missed-call response. Any unanswered call triggers a WhatsApp message within 60 seconds that opens a conversation and offers a booking. See [how to set that up](https://fizaki.com/blog/how-to-set-up-ai-missed-call-receptionist).
 
 ---
 
@@ -40,7 +39,7 @@ Lead leakage is the loss of potential customers at points in your funnel where n
 
 **What happens:** The enquiry is captured — form, DM, WhatsApp — but the reply goes out four hours or a day later. By then the customer has spoken to a competitor.
 
-**Why it leaks:** Purchase intent decays fast. The [Harvard Business Review lead response research](https://arifwork.com/blog/speed-to-lead) found the first five minutes to be disproportionately decisive, and roughly 78% of customers buy from whoever responds first.
+**Why it leaks:** Purchase intent decays fast. The [Harvard Business Review lead response research](https://fizaki.com/blog/speed-to-lead) found the first five minutes to be disproportionately decisive, and roughly 78% of customers buy from whoever responds first.
 
 **The fix:** Automate the first reply so it happens in seconds regardless of who is available. Not an acknowledgement — a real, qualifying response.
 
@@ -92,7 +91,7 @@ Lead leakage is the loss of potential customers at points in your funnel where n
 
 **Why it leaks:** Happy customers rarely think to review unprompted. Unhappy ones always do. Left alone, your review profile skews negative.
 
-**The fix:** An automatic review request sent at the moment of peak satisfaction — right after a completed job. Never incentivise reviews or gate them by sentiment; both violate Google's policies. Just ask, promptly, every time. See our guide to [getting Google reviews on autopilot](https://arifwork.com/blog/get-more-google-reviews).
+**The fix:** An automatic review request sent at the moment of peak satisfaction — right after a completed job. Never incentivise reviews or gate them by sentiment; both violate Google's policies. Just ask, promptly, every time. See our guide to [getting Google reviews on autopilot](https://fizaki.com/blog/get-more-google-reviews).
 
 ---
 
@@ -132,12 +131,12 @@ Buying traffic before sealing leaks is the most common and most expensive mistak
 
 The seven leaks are universal but they present differently depending on the trade:
 
-- [Clinics and dental practices](https://arifwork.com/industries/clinics-dental) — chairside blackout, lunch gap, forgotten recalls
-- [Gyms](https://arifwork.com/industries/gyms) — midnight DMs, trial no-shows, silent lapses
-- [Interior designers](https://arifwork.com/industries/interior-designers) — unqualified hours, quote black holes
-- [Solar installers](https://arifwork.com/industries/solar) — tenants with no roof, wasted site surveys
-- [Real estate brokers](https://arifwork.com/industries/brokers) — the four-broker race, post-visit silence
-- [Chartered accountants](https://arifwork.com/industries/chartered-accountants) — the filing-season avalanche, document chasing
+- [Clinics and dental practices](https://fizaki.com/industries/clinics-dental) — chairside blackout, lunch gap, forgotten recalls
+- [Gyms](https://fizaki.com/industries/gyms) — midnight DMs, trial no-shows, silent lapses
+- [Interior designers](https://fizaki.com/industries/interior-designers) — unqualified hours, quote black holes
+- [Solar installers](https://fizaki.com/industries/solar) — tenants with no roof, wasted site surveys
+- [Real estate brokers](https://fizaki.com/industries/brokers) — the four-broker race, post-visit silence
+- [Chartered accountants](https://fizaki.com/industries/chartered-accountants) — the filing-season avalanche, document chasing
 
 ---
 
@@ -167,6 +166,6 @@ Yes. Every one of the seven leaks has an automated fix — missed-call response,
 
 ## Find your leaks in 20 minutes
 
-arifwork's free lead-leak audit maps all seven leaks in your specific business, quantifies each one, and shows you what sealing them is worth. No obligation.
+fizaki's free lead-leak audit maps all seven leaks in your specific business, quantifies each one, and shows you what sealing them is worth. No obligation.
 
-[**Book a free lead-leak audit →**](https://arifwork.com/#quote)
+[**Book a free lead-leak audit →**](https://fizaki.com/#quote)

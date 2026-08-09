@@ -4,7 +4,7 @@ import { Pill } from "@/components/ui/pill";
 import { openWhatsApp } from "@/lib/whatsapp";
 
 const WHATSAPP_MESSAGE =
-  "Hi arifwork — I read one of your blog posts and I'd like to know more about the AI lead system for my business.";
+  "Hi fizaki — I read one of your blog posts and I'd like to know more about the AI lead system for my business.";
 
 export function BlogCTA() {
   return (
@@ -18,7 +18,7 @@ export function BlogCTA() {
 
       <div className="mt-8 flex flex-col items-center gap-4">
         <Pill asChild variant="light">
-          <a href="https://arifwork.com/#quote">Book a free lead-leak audit</a>
+          <a href="https://fizaki.com/#quote">Book a free lead-leak audit</a>
         </Pill>
         <button
           type="button"

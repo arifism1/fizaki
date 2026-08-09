@@ -11,7 +11,6 @@ publishDate: "2026-09-14"
 updatedDate: "2026-09-14"
 accent: "brandGreen"
 schema: ["BlogPosting", "FAQPage"]
-author: "Arif Ahmed"
 ---
 
 A local service business in India should budget backwards from its target: divide your desired number of new customers by your realistic conversion rate to get required leads, then multiply by your cost per lead. In practice most single-location businesses need a minimum of roughly ₹20,000–30,000 per month per platform for the algorithm to gather enough data to optimise. Spending less than that usually produces noise rather than results.
@@ -55,7 +54,7 @@ Then sanity-check it against value:
 
 Whether 37.5% is acceptable depends entirely on your margin and whether those customers return. For a dental clinic where a patient returns for years, it may be excellent. For a one-off low-margin service, it is unsustainable.
 
-**Note step 2.** If your conversion rate is 8% instead of 20% because leads wait four hours for a reply, you need 125 leads instead of 50 — and your budget becomes ₹75,000 for the same ten customers. This is why [response speed](https://arifwork.com/blog/speed-to-lead) is an advertising decision, not just an operations one.
+**Note step 2.** If your conversion rate is 8% instead of 20% because leads wait four hours for a reply, you need 125 leads instead of 50 — and your budget becomes ₹75,000 for the same ten customers. This is why [response speed](https://fizaki.com/blog/speed-to-lead) is an advertising decision, not just an operations one.
 
 ---
 
@@ -120,7 +119,7 @@ If your actual cost per lead is under that, scale up. If it is over, fix convers
 
 ## The metric that actually matters
 
-Cost per click is vanity. Cost per lead is incomplete. **Cost per booked appointment** is the only number that connects spend to reality — covered fully in [cost per booked appointment](https://arifwork.com/blog/cost-per-booked-appointment).
+Cost per click is vanity. Cost per lead is incomplete. **Cost per booked appointment** is the only number that connects spend to reality — covered fully in [cost per booked appointment](https://fizaki.com/blog/cost-per-booked-appointment).
 
 A campaign delivering leads at ₹400 that never get answered is worse than one delivering leads at ₹800 that reliably convert into appointments.
 
@@ -132,7 +131,7 @@ Be honest about these. Advertising amplifies whatever system already exists — 
 
 - **You cannot answer leads within an hour.** Fix response first. Ads into an unanswered pipeline are pure waste.
 - **You have no tracking.** If you cannot tell which campaign produced which customer, you are buying lottery tickets.
-- **Your Google Business Profile is unoptimised.** Free local visibility is cheaper than paid. Do [that](https://arifwork.com/blog/google-business-profile-checklist) first.
+- **Your Google Business Profile is unoptimised.** Free local visibility is cheaper than paid. Do [that](https://fizaki.com/blog/google-business-profile-checklist) first.
 - **You have five Google reviews.** Ads will send people to a profile that does not convert.
 - **Your budget is under ₹15,000/month.** Put it into fixing leaks instead — the return is higher and permanent.
 
@@ -176,6 +175,6 @@ Expect 30 days to establish a reliable baseline and 60–90 days to reach stable
 
 ## Spend less, convert more
 
-arifwork tracks every rupee from click to booked appointment, and makes sure the leads your ads generate are answered in under 60 seconds.
+fizaki tracks every rupee from click to booked appointment, and makes sure the leads your ads generate are answered in under 60 seconds.
 
-[**Book a free lead-leak audit →**](https://arifwork.com/#quote)
+[**Book a free lead-leak audit →**](https://fizaki.com/#quote)

@@ -11,7 +11,6 @@ publishDate: "2026-09-10"
 updatedDate: "2026-09-10"
 accent: "brandBlue"
 schema: ["BlogPosting", "FAQPage", "HowTo"]
-author: "Arif Ahmed"
 ---
 
 To rank higher in Google's local map pack, your Google Business Profile needs a precise primary category, complete and consistent business information, a steady flow of recent reviews with replies, regularly refreshed photos, and active use of Posts, Products and Q&A. Local ranking is driven by three factors Google names openly: relevance, distance and prominence — and you can influence two of the three.
@@ -80,7 +79,7 @@ Since distance is fixed, everything below is about maximising relevance and prom
 
 ### Reviews
 
-**16. Build a steady review flow.** Velocity and recency matter, not just count. See [how to get Google reviews on autopilot](https://arifwork.com/blog/get-more-google-reviews).
+**16. Build a steady review flow.** Velocity and recency matter, not just count. See [how to get Google reviews on autopilot](https://fizaki.com/blog/get-more-google-reviews).
 
 **17. Reply to every review**, positive and negative, within a few days.
 
@@ -90,7 +89,7 @@ Since distance is fixed, everything below is about maximising relevance and prom
 
 **19. Add LocalBusiness schema to your website** with details matching your profile exactly — name, address, phone, hours, geo-coordinates. This reinforces the entity relationship between your site and your listing.
 
-**20. Track calls and direction requests** in Google Business Profile insights. And critically, **make sure the calls those listings generate are actually answered** — a highly optimised profile that drives calls into a phone nobody picks up simply converts your local SEO investment into [lead leakage](https://arifwork.com/blog/lead-leakage-local-business).
+**20. Track calls and direction requests** in Google Business Profile insights. And critically, **make sure the calls those listings generate are actually answered** — a highly optimised profile that drives calls into a phone nobody picks up simply converts your local SEO investment into [lead leakage](https://fizaki.com/blog/lead-leakage-local-business).
 
 ---
 
@@ -148,8 +147,8 @@ Yes. Google permits businesses to post and answer their own questions, and it is
 
 ## Get the calls, then answer them
 
-arifwork optimises your Google Business Profile and makes sure the calls it generates are answered within 60 seconds, even after hours.
+fizaki optimises your Google Business Profile and makes sure the calls it generates are answered within 60 seconds, even after hours.
 
-[**Book a free lead-leak audit →**](https://arifwork.com/#quote)
+[**Book a free lead-leak audit →**](https://fizaki.com/#quote)
 
-Related reading: [how to get more Google reviews](https://arifwork.com/blog/get-more-google-reviews) and [the complete local marketing automation playbook](https://arifwork.com/blog/marketing-automation-local-business-india).
+Related reading: [how to get more Google reviews](https://fizaki.com/blog/get-more-google-reviews) and [the complete local marketing automation playbook](https://fizaki.com/blog/marketing-automation-local-business-india).

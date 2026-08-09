@@ -11,7 +11,6 @@ publishDate: "2026-10-05"
 updatedDate: "2026-10-05"
 accent: "brandBlue"
 schema: ["BlogPosting", "FAQPage"]
-author: "Arif Ahmed"
 ---
 
 Property portal leads are distributed to several brokers simultaneously, which turns lead response into a race rather than a conversation. The broker who replies first typically secures the site visit, and the site visit is what produces the deal. Since brokers spend most of their day at properties and unable to answer, automated instant response is the single highest-return change available to a brokerage.
@@ -39,7 +38,7 @@ So the buyer's phone is now receiving calls and messages from four people about 
 
 The deal is not usually won on better inventory or a better commission. **It is won on being first.**
 
-This is the [speed-to-lead](https://arifwork.com/blog/speed-to-lead) principle in its most literal form — nowhere else is the competition so simultaneous and so visible.
+This is the [speed-to-lead](https://fizaki.com/blog/speed-to-lead) principle in its most literal form — nowhere else is the competition so simultaneous and so visible.
 
 ---
 
@@ -206,8 +205,8 @@ Yes, when it is transparent and limited to speed. An assistant that identifies i
 
 ## Be first, every time
 
-arifwork answers every portal lead in under 60 seconds, qualifies budget, configuration and timeline, and books the site visit into your calendar while you are still at the last one.
+fizaki answers every portal lead in under 60 seconds, qualifies budget, configuration and timeline, and books the site visit into your calendar while you are still at the last one.
 
-[**Book a free lead-leak audit →**](https://arifwork.com/#quote)
+[**Book a free lead-leak audit →**](https://fizaki.com/#quote)
 
-Related reading: [speed to lead](https://arifwork.com/blog/speed-to-lead) and [the 7 places local businesses lose customers](https://arifwork.com/blog/lead-leakage-local-business).
+Related reading: [speed to lead](https://fizaki.com/blog/speed-to-lead) and [the 7 places local businesses lose customers](https://fizaki.com/blog/lead-leakage-local-business).

@@ -6,7 +6,7 @@ import { getAllSlugs, getPostBySlug } from "@/lib/blog";
 
 // Node runtime (not edge): getPostBySlug reads content/blog/*.md from disk,
 // which the edge runtime can't do.
-export const alt = "arifwork — blog";
+export const alt = "fizaki — blog";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -17,7 +17,7 @@ export function generateStaticParams() {
 export default async function Image({ params }: { params: { slug: string } }) {
   const post = getPostBySlug(params.slug);
   const accent = accentHex(post?.accent ?? "brandBlue");
-  const title = post?.title ?? "arifwork";
+  const title = post?.title ?? "fizaki";
   const cluster = post ? CLUSTER_LABELS[post.cluster] : "";
 
   return new ImageResponse(
@@ -70,7 +70,7 @@ export default async function Image({ params }: { params: { slug: string } }) {
           }}
         >
           <span style={{ fontSize: "24px", fontWeight: 600, color: "#0F0F0F", letterSpacing: "-0.01em" }}>
-            arifwork
+            fizaki
           </span>
           <span
             style={{

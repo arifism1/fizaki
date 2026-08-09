@@ -30,7 +30,7 @@ export async function GET() {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>arifwork — Blog</title>
+    <title>fizaki — Blog</title>
     <link>${site.url}/blog</link>
     <description>Guides on missed calls, WhatsApp automation, Google reviews and lead conversion for local service businesses in India.</description>
     <language>en-IN</language>

@@ -11,7 +11,6 @@ publishDate: "2026-08-20"
 updatedDate: "2026-08-20"
 accent: "brandGreen"
 schema: ["BlogPosting", "FAQPage", "HowTo"]
-author: "Arif Ahmed"
 ---
 
 The WhatsApp Business API is Meta's programmatic messaging platform that lets businesses send and receive WhatsApp messages through software rather than a phone. In India it is accessed through a Business Solution Provider, requires a verified Meta Business account and a dedicated phone number, and is billed by Meta per conversation. It is the foundation for any automated WhatsApp booking, support or lead-response system.
@@ -48,7 +47,7 @@ Meta changes WhatsApp pricing, category definitions and window rules regularly. 
 
 The short rule: **if a human will personally type every reply, use the free app. If you want a system to reply, you need the API.**
 
-We compare these in more depth in [WhatsApp Business app vs API](https://arifwork.com/blog/whatsapp-business-app-vs-api).
+We compare these in more depth in [WhatsApp Business app vs API](https://fizaki.com/blog/whatsapp-business-app-vs-api).
 
 ---
 
@@ -196,8 +195,8 @@ It is worth it if you are losing leads to slow replies. If you receive a handful
 
 ## Skip the setup entirely
 
-arifwork handles WhatsApp Business API provisioning, verification, template approval and conversation design as part of every build — typically live in about two weeks.
+fizaki handles WhatsApp Business API provisioning, verification, template approval and conversation design as part of every build — typically live in about two weeks.
 
-[**Book a free lead-leak audit →**](https://arifwork.com/#quote)
+[**Book a free lead-leak audit →**](https://fizaki.com/#quote)
 
-Related reading: [app vs API compared](https://arifwork.com/blog/whatsapp-business-app-vs-api) and [how to automate Instagram DMs legally](https://arifwork.com/blog/automate-instagram-dms).
+Related reading: [app vs API compared](https://fizaki.com/blog/whatsapp-business-app-vs-api) and [how to automate Instagram DMs legally](https://fizaki.com/blog/automate-instagram-dms).

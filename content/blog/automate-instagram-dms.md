@@ -11,7 +11,6 @@ publishDate: "2026-08-31"
 updatedDate: "2026-08-31"
 accent: "brandPink"
 schema: ["BlogPosting", "FAQPage", "HowTo"]
-author: "Arif Ahmed"
 ---
 
 Instagram DM automation is officially supported by Meta through the Instagram Messaging API. It requires an Instagram professional account connected to a Facebook Page, an approved Meta app with messaging permissions, and compliance with Meta's 24-hour messaging window. Within those rules you can reply instantly, qualify a lead and send a booking link — but you cannot send unsolicited follow-ups days later.
@@ -155,8 +154,8 @@ Not if you are responding to people who messaged you. Replying quickly generally
 
 ## Get Instagram and WhatsApp working as one system
 
-arifwork connects Instagram DMs, missed calls, website forms and WhatsApp into a single lead-response system for Indian local businesses — compliant, fast, and live in about two weeks.
+fizaki connects Instagram DMs, missed calls, website forms and WhatsApp into a single lead-response system for Indian local businesses — compliant, fast, and live in about two weeks.
 
-[**Book a free lead-leak audit →**](https://arifwork.com/#quote)
+[**Book a free lead-leak audit →**](https://fizaki.com/#quote)
 
-Related reading: [the WhatsApp Business API India guide](https://arifwork.com/blog/whatsapp-business-api-india) and [speed to lead](https://arifwork.com/blog/speed-to-lead).
+Related reading: [the WhatsApp Business API India guide](https://fizaki.com/blog/whatsapp-business-api-india) and [speed to lead](https://fizaki.com/blog/speed-to-lead).

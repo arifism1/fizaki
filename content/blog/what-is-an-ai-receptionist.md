@@ -11,7 +11,6 @@ publishDate: "2026-08-17"
 updatedDate: "2026-08-17"
 accent: "brandTeal"
 schema: ["BlogPosting", "FAQPage"]
-author: "Arif Ahmed"
 ---
 
 An AI receptionist is software that automatically responds to a business's incoming calls and messages, answers common questions, qualifies the enquiry and books appointments — without a human being involved. For most small businesses it does not replace a receptionist; it covers the calls and messages that were previously going unanswered, including nights, weekends and busy service hours.
@@ -114,7 +113,7 @@ Costs vary widely by provider and scope, so treat any single number with suspici
 | WhatsApp conversation charges | Meta charges per conversation via the WhatsApp Business API |
 | Optional add-ons | Ads tracking, review automation, CRM sync |
 
-The honest way to evaluate it is not the sticker price but the comparison: against a full-time receptionist's salary, an AI receptionist is a small fraction of the cost — and it covers the nights and Sundays a human never would. Against doing nothing, compare it to the monthly loss you calculated in [our missed call statistics guide](https://arifwork.com/blog/missed-call-statistics-india).
+The honest way to evaluate it is not the sticker price but the comparison: against a full-time receptionist's salary, an AI receptionist is a small fraction of the cost — and it covers the nights and Sundays a human never would. Against doing nothing, compare it to the monthly loss you calculated in [our missed call statistics guide](https://fizaki.com/blog/missed-call-statistics-india).
 
 ---
 
@@ -167,8 +166,8 @@ In a small business, no. It handles the calls and messages nobody was answering 
 
 ## See it working on your own number
 
-arifwork builds AI missed-call receptionists for local service businesses across India, live in about two weeks, with no change to your phone number.
+fizaki builds AI missed-call receptionists for local service businesses across India, live in about two weeks, with no change to your phone number.
 
-[**Book a free lead-leak audit →**](https://arifwork.com/#quote)
+[**Book a free lead-leak audit →**](https://fizaki.com/#quote)
 
-Related reading: [how to set one up step by step](https://arifwork.com/blog/how-to-set-up-ai-missed-call-receptionist) and [the WhatsApp Business API guide for India](https://arifwork.com/blog/whatsapp-business-api-india).
+Related reading: [how to set one up step by step](https://fizaki.com/blog/how-to-set-up-ai-missed-call-receptionist) and [the WhatsApp Business API guide for India](https://fizaki.com/blog/whatsapp-business-api-india).

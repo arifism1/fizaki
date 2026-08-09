@@ -11,7 +11,6 @@ publishDate: "2026-08-10"
 updatedDate: "2026-08-10"
 accent: "brandBlue"
 schema: ["BlogPosting", "FAQPage"]
-author: "Arif Ahmed"
 ---
 
 Indian small businesses miss a large share of their inbound calls — industry estimates commonly place the figure between 30% and 62% depending on sector, with service businesses that have no dedicated front desk at the worst end. Each missed call is a lost customer roughly one time in three, because most callers simply dial the next business on the list instead of leaving a voicemail.
@@ -41,7 +40,7 @@ The phone does not ring less during those hours. It rings **more**, because thos
 
 ### When missed calls cluster
 
-In the businesses arifwork has audited, missed calls are not evenly spread across the day. They concentrate in four predictable windows:
+In the businesses fizaki has audited, missed calls are not evenly spread across the day. They concentrate in four predictable windows:
 
 | Window | Why calls are missed | Typical share of misses |
 | --- | --- | --- |
@@ -102,7 +101,7 @@ Separately, the widely quoted finding that **around 78% of customers buy from th
 
 The practical implication is uncomfortable for anyone spending on ads: **response speed is a higher-leverage lever than ad budget.** Doubling your ad spend doubles the leads arriving into the same leaky funnel. Cutting response time from four hours to sixty seconds increases the yield of every lead you already pay for.
 
-We covered this in depth in our guide to [speed to lead and the 60-second rule](https://arifwork.com/blog/speed-to-lead).
+We covered this in depth in our guide to [speed to lead and the 60-second rule](https://fizaki.com/blog/speed-to-lead).
 
 ---
 
@@ -119,9 +118,9 @@ There are four realistic options, and only one of them scales for a small busine
 
 An **AI missed-call receptionist** is a system that detects an unanswered call and automatically sends the caller a WhatsApp message within seconds, answers their basic questions, and offers real appointment slots from your calendar. It does not replace anyone. It covers the calls that were going to voicemail anyway.
 
-If you want the mechanics, see [what an AI receptionist is and how it works](https://arifwork.com/blog/what-is-an-ai-receptionist) and our [step-by-step setup guide](https://arifwork.com/blog/how-to-set-up-ai-missed-call-receptionist).
+If you want the mechanics, see [what an AI receptionist is and how it works](https://fizaki.com/blog/what-is-an-ai-receptionist) and our [step-by-step setup guide](https://fizaki.com/blog/how-to-set-up-ai-missed-call-receptionist).
 
-Missed calls are also only one of several places leads escape. The full map is in [the seven places local businesses lose customers](https://arifwork.com/blog/lead-leakage-local-business).
+Missed calls are also only one of several places leads escape. The full map is in [the seven places local businesses lose customers](https://fizaki.com/blog/lead-leakage-local-business).
 
 ---
 
@@ -151,6 +150,6 @@ Multiply your monthly missed calls by a conservative 30% conversion rate and you
 
 ## Work out your own number
 
-arifwork runs a free 20-minute lead-leak audit for local service businesses in India. We pull your call logs, count what rang out last month, and show you what it was worth — no obligation, no pitch deck.
+fizaki runs a free 20-minute lead-leak audit for local service businesses in India. We pull your call logs, count what rang out last month, and show you what it was worth — no obligation, no pitch deck.
 
-[**Book a free lead-leak audit →**](https://arifwork.com/#quote)
+[**Book a free lead-leak audit →**](https://fizaki.com/#quote)

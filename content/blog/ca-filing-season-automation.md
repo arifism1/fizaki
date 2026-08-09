@@ -11,7 +11,6 @@ publishDate: "2026-10-08"
 updatedDate: "2026-10-08"
 accent: "brandGreen"
 schema: ["BlogPosting", "FAQPage"]
-author: "Arif Ahmed"
 ---
 
 During filing season a chartered accountant's practice fails not from a shortage of clients but from an excess of interruptions — status queries, document chasing and repetitive questions that consume the hours needed for actual filing work. Automating document collection, status updates and standard queries recovers most of that time without adding headcount.
@@ -162,8 +161,8 @@ Only general, factual questions such as deadlines, required documents, fees and 
 
 ## Get your filing season back
 
-arifwork automates document collection, status updates and standard client queries for CA practices — with strict guardrails around anything advisory.
+fizaki automates document collection, status updates and standard client queries for CA practices — with strict guardrails around anything advisory.
 
-[**Book a free lead-leak audit →**](https://arifwork.com/#quote)
+[**Book a free lead-leak audit →**](https://fizaki.com/#quote)
 
-Related reading: [AI lead qualification](https://arifwork.com/blog/ai-lead-qualification) and [the 7 places local businesses lose customers](https://arifwork.com/blog/lead-leakage-local-business).
+Related reading: [AI lead qualification](https://fizaki.com/blog/ai-lead-qualification) and [the 7 places local businesses lose customers](https://fizaki.com/blog/lead-leakage-local-business).

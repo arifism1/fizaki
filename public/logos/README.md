@@ -1,4 +1,4 @@
-# Arifwork Logo & Branding Assets
+# fizaki Logo & Branding Assets
 
 All logo files are in SVG format for maximum scalability and quality at any size.
 
@@ -54,7 +54,7 @@ The **funnel icon** represents:
 - **Refinement**: The middle section filters and qualifies
 - **Conversion**: The pointed bottom represents qualified, ready-to-close leads
 
-This visual metaphor reinforces Arifwork's core promise: **"No Leads Slip Away"**
+This visual metaphor reinforces fizaki's core promise: **"No Leads Slip Away"**
 
 ## Implementation Guidelines
 
@@ -90,4 +90,4 @@ All SVGs are already optimized for web delivery. No additional compression neede
 ---
 
 Last Updated: August 2026
-Design: Arifwork Brand Team
+Design: fizaki Brand Team

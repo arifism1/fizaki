@@ -1,37 +1,37 @@
-# arifwork
+# fizaki
 
-> arifwork is an AI-powered marketing and automation agency for local service
+> fizaki is an AI-powered marketing and automation agency for local service
 > businesses in India. We build AI missed-call receptionists, WhatsApp booking
 > automation, lead qualification and local ad systems for clinics, dental
 > practices, gyms, interior designers, solar installers, real estate brokers
 > and chartered accountants.
 
 ## Core pages
-- https://arifwork.com/ : what arifwork does and who it is for
-- https://arifwork.com/industries : the six verticals we build for
+- https://fizaki.com/ : what fizaki does and who it is for
+- https://fizaki.com/industries : the six verticals we build for
 
 ## Blog
-- https://arifwork.com/blog/missed-call-statistics-india : how many calls Indian small businesses miss and what each one costs
-- https://arifwork.com/blog/speed-to-lead : why lead response time predicts conversion better than ad spend
-- https://arifwork.com/blog/what-is-an-ai-receptionist : definition, architecture and limits of an AI receptionist
-- https://arifwork.com/blog/whatsapp-business-api-india : setup, pricing, templates and the 24-hour window
-- https://arifwork.com/blog/whatsapp-business-app-vs-api : which of the two a business actually needs
-- https://arifwork.com/blog/how-to-set-up-ai-missed-call-receptionist : step-by-step implementation guide
-- https://arifwork.com/blog/automate-instagram-dms : what Meta permits and how to hand off to WhatsApp
-- https://arifwork.com/blog/lead-leakage-local-business : the seven points where local businesses lose enquiries
-- https://arifwork.com/blog/get-more-google-reviews : an automated, policy-compliant review system
-- https://arifwork.com/blog/google-business-profile-checklist : 20-point local ranking checklist for India
-- https://arifwork.com/blog/local-business-ad-budget-india : how to size a Google and Meta ad budget
-- https://arifwork.com/blog/cost-per-booked-appointment : the only ad metric local businesses should track
-- https://arifwork.com/blog/dental-clinic-missed-calls : missed calls, no-shows and recalls in dental practices
-- https://arifwork.com/blog/gym-trial-conversion : answering, booking and converting gym trial enquiries
-- https://arifwork.com/blog/interior-designer-lead-qualification : filtering design enquiries by budget and timeline
-- https://arifwork.com/blog/solar-site-survey-qualification : five questions that prevent wasted site surveys
-- https://arifwork.com/blog/real-estate-portal-leads : winning simultaneously distributed portal leads
-- https://arifwork.com/blog/ca-filing-season-automation : document collection and status updates for CA practices
-- https://arifwork.com/blog/ai-lead-qualification : what to automate and what must stay human
-- https://arifwork.com/blog/marketing-automation-local-business-india : the full implementation playbook
+- https://fizaki.com/blog/missed-call-statistics-india : how many calls Indian small businesses miss and what each one costs
+- https://fizaki.com/blog/speed-to-lead : why lead response time predicts conversion better than ad spend
+- https://fizaki.com/blog/what-is-an-ai-receptionist : definition, architecture and limits of an AI receptionist
+- https://fizaki.com/blog/whatsapp-business-api-india : setup, pricing, templates and the 24-hour window
+- https://fizaki.com/blog/whatsapp-business-app-vs-api : which of the two a business actually needs
+- https://fizaki.com/blog/how-to-set-up-ai-missed-call-receptionist : step-by-step implementation guide
+- https://fizaki.com/blog/automate-instagram-dms : what Meta permits and how to hand off to WhatsApp
+- https://fizaki.com/blog/lead-leakage-local-business : the seven points where local businesses lose enquiries
+- https://fizaki.com/blog/get-more-google-reviews : an automated, policy-compliant review system
+- https://fizaki.com/blog/google-business-profile-checklist : 20-point local ranking checklist for India
+- https://fizaki.com/blog/local-business-ad-budget-india : how to size a Google and Meta ad budget
+- https://fizaki.com/blog/cost-per-booked-appointment : the only ad metric local businesses should track
+- https://fizaki.com/blog/dental-clinic-missed-calls : missed calls, no-shows and recalls in dental practices
+- https://fizaki.com/blog/gym-trial-conversion : answering, booking and converting gym trial enquiries
+- https://fizaki.com/blog/interior-designer-lead-qualification : filtering design enquiries by budget and timeline
+- https://fizaki.com/blog/solar-site-survey-qualification : five questions that prevent wasted site surveys
+- https://fizaki.com/blog/real-estate-portal-leads : winning simultaneously distributed portal leads
+- https://fizaki.com/blog/ca-filing-season-automation : document collection and status updates for CA practices
+- https://fizaki.com/blog/ai-lead-qualification : what to automate and what must stay human
+- https://fizaki.com/blog/marketing-automation-local-business-india : the full implementation playbook
 
 ## Contact
-- Email: hello@arifwork.com
+- Email: hello@fizaki.com
 - WhatsApp: +91 91017 76379

@@ -20,11 +20,11 @@ const instrumentSerif = Instrument_Serif({
   display: "swap",
 });
 
-const title = "arifwork — We make sure no lead slips through";
+const title = "fizaki — We make sure no lead slips through";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: { default: title, template: "%s · arifwork" },
+  title: { default: title, template: "%s · fizaki" },
   description: site.description,
   icons: {
     icon: "/favicon.svg",

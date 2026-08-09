@@ -11,7 +11,6 @@ publishDate: "2026-09-07"
 updatedDate: "2026-09-07"
 accent: "brandOrange"
 schema: ["BlogPosting", "FAQPage", "HowTo"]
-author: "Arif Ahmed"
 ---
 
 The reliable way to get more Google reviews is to ask every customer, immediately after a completed job, with a direct link that opens the review form in one tap. Automating that request removes the two reasons reviews do not happen: staff forgetting to ask, and customers finding the process too much effort. You must never offer incentives or filter out unhappy customers — both violate Google's policies.
@@ -126,7 +125,7 @@ Gate-free asking feels risky to business owners, but it is both required and hea
 
 1. **Define the trigger.** The most reliable trigger is a completed appointment or a job marked done in whatever system you already use.
 2. **Add a delay.** Two to four hours for most services. Same day, not next week.
-3. **Send on WhatsApp.** Open rates far exceed email or SMS in India. Outside the 24-hour window this needs an approved template — see the [WhatsApp Business API guide](https://arifwork.com/blog/whatsapp-business-api-india).
+3. **Send on WhatsApp.** Open rates far exceed email or SMS in India. Outside the 24-hour window this needs an approved template — see the [WhatsApp Business API guide](https://fizaki.com/blog/whatsapp-business-api-india).
 4. **Personalise two variables:** the customer's first name and the service they received.
 5. **Include the direct link.**
 6. **Send exactly one follow-up**, three days later, only if they have not reviewed — and only once.
@@ -179,8 +178,8 @@ After every completed job, once, with at most one gentle reminder a few days lat
 
 ## Put it on autopilot
 
-arifwork installs an automated review engine that fires after every completed job, respects Google's policies, and quietly compounds your local ranking in the background.
+fizaki installs an automated review engine that fires after every completed job, respects Google's policies, and quietly compounds your local ranking in the background.
 
-[**Book a free lead-leak audit →**](https://arifwork.com/#quote)
+[**Book a free lead-leak audit →**](https://fizaki.com/#quote)
 
-Related reading: [the Google Business Profile optimisation checklist](https://arifwork.com/blog/google-business-profile-checklist) and [lead leakage](https://arifwork.com/blog/lead-leakage-local-business).
+Related reading: [the Google Business Profile optimisation checklist](https://fizaki.com/blog/google-business-profile-checklist) and [lead leakage](https://fizaki.com/blog/lead-leakage-local-business).

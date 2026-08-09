@@ -11,7 +11,6 @@ publishDate: "2026-09-24"
 updatedDate: "2026-09-24"
 accent: "brandOrange"
 schema: ["BlogPosting", "FAQPage"]
-author: "Arif Ahmed"
 ---
 
 Gym enquiries are impulse decisions with a short shelf life — someone decides to get fit, messages three gyms, and joins whichever replies while the motivation is still hot. Gyms that respond within minutes convert dramatically better than those that reply the next morning, because by then the impulse has passed and a competitor has already booked the trial.
@@ -142,7 +141,7 @@ The workable pattern:
 - **Move to WhatsApp for the booking**, because Instagram's 24-hour messaging window makes reminders and follow-ups difficult
 - **All reminders, trial follow-ups and renewals happen on WhatsApp**, using approved templates
 
-The reasoning is explained fully in [how to automate Instagram DMs](https://arifwork.com/blog/automate-instagram-dms).
+The reasoning is explained fully in [how to automate Instagram DMs](https://fizaki.com/blog/automate-instagram-dms).
 
 ---
 
@@ -172,8 +171,8 @@ Monitor attendance and trigger outreach automatically — a friendly check-in af
 
 ## Never miss a midnight enquiry again
 
-arifwork answers your Instagram DMs, WhatsApp messages and missed calls in seconds, books trials into your calendar, and runs the follow-up sequence automatically.
+fizaki answers your Instagram DMs, WhatsApp messages and missed calls in seconds, books trials into your calendar, and runs the follow-up sequence automatically.
 
-[**Book a free lead-leak audit →**](https://arifwork.com/#quote)
+[**Book a free lead-leak audit →**](https://fizaki.com/#quote)
 
-Related reading: [speed to lead](https://arifwork.com/blog/speed-to-lead) and [the 7 places local businesses lose customers](https://arifwork.com/blog/lead-leakage-local-business).
+Related reading: [speed to lead](https://fizaki.com/blog/speed-to-lead) and [the 7 places local businesses lose customers](https://fizaki.com/blog/lead-leakage-local-business).

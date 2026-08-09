@@ -10,7 +10,7 @@ export function DayInTheLife({ industry }: { industry: Industry }) {
         <SectionHeading
           id="day-heading"
           title={[
-            { text: "A Tuesday, with arifwork running quietly in the background." },
+            { text: "A Tuesday, with fizaki running quietly in the background." },
           ]}
         />
       </Reveal>

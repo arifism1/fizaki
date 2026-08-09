@@ -17,7 +17,7 @@ import { site } from "@/lib/content";
 import { INDUSTRIES } from "@/lib/industries";
 
 export const metadata: Metadata = {
-  title: "Industries We Build For | arifwork",
+  title: "Industries We Build For | fizaki",
   description:
     "Six verticals, six different ways leads leak. Clinics, gyms, interior designers, solar installers, brokers and chartered accountants — see exactly what we install.",
   alternates: { canonical: "/industries" },
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     locale: "en_IN",
     url: "/industries",
     siteName: site.name,
-    title: "Industries We Build For | arifwork",
+    title: "Industries We Build For | fizaki",
     description:
       "Six verticals, six different ways leads leak. Pick yours and see exactly what we install.",
   },

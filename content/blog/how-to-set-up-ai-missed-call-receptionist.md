@@ -11,7 +11,6 @@ publishDate: "2026-08-27"
 updatedDate: "2026-08-27"
 accent: "brandBlue"
 schema: ["BlogPosting", "FAQPage", "HowTo"]
-author: "Arif Ahmed"
 ---
 
 To set up an AI missed-call receptionist you need four components: a way to detect unanswered calls, a WhatsApp Business API number to reply from, an AI conversation flow that qualifies the caller and offers appointment slots, and a connected calendar. A working system takes roughly one to three weeks to build, and does not require changing your business phone number.
@@ -46,7 +45,7 @@ This is the piece most guides skip, and it determines everything else. Three wor
 
 **Conditional call forwarding.** Configure your line so unanswered calls forward to a number connected to your automation. Your carrier supports this. Simple, cheap, and keeps your primary number intact.
 
-**A call-tracking layer.** Route calls through a tracking number that logs answered versus missed and fires a webhook. Adds analytics as a bonus — useful if you also run ads and want [cost per booked appointment](https://arifwork.com/blog/cost-per-booked-appointment) reporting.
+**A call-tracking layer.** Route calls through a tracking number that logs answered versus missed and fires a webhook. Adds analytics as a bonus — useful if you also run ads and want [cost per booked appointment](https://fizaki.com/blog/cost-per-booked-appointment) reporting.
 
 **A device-level app.** An Android app on the business phone that watches the call log and triggers a webhook on a missed call. Cheapest, but fragile — it depends on one physical handset staying on and charged. Fine for testing, not for production.
 
@@ -64,7 +63,7 @@ Start this on day one because Meta's verification takes the longest.
 4. Get your **display name approved**.
 5. Submit your initial **message templates**.
 
-The full walkthrough is in our [WhatsApp Business API India guide](https://arifwork.com/blog/whatsapp-business-api-india).
+The full walkthrough is in our [WhatsApp Business API India guide](https://fizaki.com/blog/whatsapp-business-api-india).
 
 ---
 
@@ -191,8 +190,8 @@ Rarely, because the message identifies your business, is polite and is easy to i
 
 ## Or have it built for you
 
-arifwork builds and maintains AI missed-call receptionists for Indian local service businesses — verification, templates, conversation design, calendar integration and guardrails included, live in about two weeks.
+fizaki builds and maintains AI missed-call receptionists for Indian local service businesses — verification, templates, conversation design, calendar integration and guardrails included, live in about two weeks.
 
-[**Book a free lead-leak audit →**](https://arifwork.com/#quote)
+[**Book a free lead-leak audit →**](https://fizaki.com/#quote)
 
-Related reading: [what an AI receptionist is](https://arifwork.com/blog/what-is-an-ai-receptionist) and [missed call statistics for Indian small businesses](https://arifwork.com/blog/missed-call-statistics-india).
+Related reading: [what an AI receptionist is](https://fizaki.com/blog/what-is-an-ai-receptionist) and [missed call statistics for Indian small businesses](https://fizaki.com/blog/missed-call-statistics-india).

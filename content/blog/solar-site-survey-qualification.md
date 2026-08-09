@@ -11,7 +11,6 @@ publishDate: "2026-10-01"
 updatedDate: "2026-10-01"
 accent: "brandOrange"
 schema: ["BlogPosting", "FAQPage"]
-author: "Arif Ahmed"
 ---
 
 Rooftop solar installers waste a large share of site surveys on enquiries that could never convert — tenants without roof rights, heavily shaded roofs, electricity bills too small to justify a system, and buyers whose expectations were set by an unrealistic advertisement. Five qualifying questions asked automatically at first contact remove most of them before a van leaves the yard.
@@ -213,8 +212,8 @@ Longer than most trades, because it involves household consultation, multi-vendo
 
 ## Send the van only where it pays
 
-arifwork qualifies every solar enquiry on WhatsApp within seconds — ownership, bill, roof, shading, timeline — and books surveys only for viable rooftops.
+fizaki qualifies every solar enquiry on WhatsApp within seconds — ownership, bill, roof, shading, timeline — and books surveys only for viable rooftops.
 
-[**Book a free lead-leak audit →**](https://arifwork.com/#quote)
+[**Book a free lead-leak audit →**](https://fizaki.com/#quote)
 
-Related reading: [AI lead qualification](https://arifwork.com/blog/ai-lead-qualification) and [the 7 places local businesses lose customers](https://arifwork.com/blog/lead-leakage-local-business).
+Related reading: [AI lead qualification](https://fizaki.com/blog/ai-lead-qualification) and [the 7 places local businesses lose customers](https://fizaki.com/blog/lead-leakage-local-business).

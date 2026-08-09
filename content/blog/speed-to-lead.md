@@ -11,7 +11,6 @@ publishDate: "2026-08-13"
 updatedDate: "2026-08-13"
 accent: "brandOrange"
 schema: ["BlogPosting", "FAQPage"]
-author: "Arif Ahmed"
 ---
 
 Speed to lead is the time between a prospect contacting your business and your first meaningful reply. It is one of the strongest predictors of whether that lead converts — research consistently shows conversion odds fall sharply after the first five minutes and collapse after the first hour. For most local businesses, cutting response time is cheaper and more effective than increasing ad spend.
@@ -103,7 +102,7 @@ Effort does not solve a physics problem. **Only automation does.**
 
 1. **Measure your current baseline.** For two weeks, log the timestamp of each enquiry and each first reply. The average will be worse than you expect. This number is your before.
 2. **Consolidate every channel into one inbox.** Calls, website forms, WhatsApp, Instagram DMs and ad lead forms should land in a single place. Leads die in channels nobody checks.
-3. **Automate the first reply.** An [AI receptionist](https://arifwork.com/blog/what-is-an-ai-receptionist) sends a real, contextual response within seconds — not an acknowledgement, but an actual conversation opener that asks the qualifying question.
+3. **Automate the first reply.** An [AI receptionist](https://fizaki.com/blog/what-is-an-ai-receptionist) sends a real, contextual response within seconds — not an acknowledgement, but an actual conversation opener that asks the qualifying question.
 4. **Let the AI qualify and book.** The goal is not to hold the lead until a human is free. It is to complete the transaction the lead came for: an appointment, a site visit, a trial.
 5. **Hand off cleanly to a human.** Anything advisory, sensitive or high-value routes to a person, with the conversation history attached so nothing is repeated.
 6. **Track it permanently.** Response time should be a metric you review weekly, alongside spend and revenue.
@@ -136,8 +135,8 @@ Yes, and often more so. For high-value purchases like solar installations or pro
 
 ## Find out your real response time
 
-arifwork measures your current speed to lead across calls, WhatsApp and forms as part of a free 20-minute lead-leak audit — then shows you exactly what closing the gap is worth.
+fizaki measures your current speed to lead across calls, WhatsApp and forms as part of a free 20-minute lead-leak audit — then shows you exactly what closing the gap is worth.
 
-[**Book a free lead-leak audit →**](https://arifwork.com/#quote)
+[**Book a free lead-leak audit →**](https://fizaki.com/#quote)
 
-Related reading: [missed call statistics for Indian small businesses](https://arifwork.com/blog/missed-call-statistics-india) and [the seven places local businesses lose leads](https://arifwork.com/blog/lead-leakage-local-business).
+Related reading: [missed call statistics for Indian small businesses](https://fizaki.com/blog/missed-call-statistics-india) and [the seven places local businesses lose leads](https://fizaki.com/blog/lead-leakage-local-business).

@@ -53,7 +53,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
       description: post.metaDescription,
       publishedTime: post.publishDate,
       modifiedTime: post.updatedDate,
-      authors: [post.author],
+      ...(post.author ? { authors: [post.author] } : {}),
     },
     twitter: {
       card: "summary_large_image",
@@ -90,7 +90,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
     description: post.metaDescription,
     datePublished: post.publishDate,
     dateModified: post.updatedDate,
-    author: { "@type": "Person", name: post.author },
+    ...(post.author ? { author: { "@type": "Person", name: post.author } } : {}),
     publisher: {
       "@type": "Organization",
       name: site.name,

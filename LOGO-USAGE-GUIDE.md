@@ -1,8 +1,8 @@
-# Arifwork Logo & Branding Guide
+# fizaki Logo & Branding Guide
 
 ## Summary
 
-A complete professional logo system has been created for Arifwork and is now ready to use across all platforms.
+A complete professional logo system has been created for fizaki and is now ready to use across all platforms.
 
 ### What Was Created
 
@@ -31,7 +31,7 @@ All logo files are stored in: `/public/logos/`
 
 ## Design Concept
 
-The logo features a **funnel icon** that represents Arifwork's core mission:
+The logo features a **funnel icon** that represents fizaki's core mission:
 
 - 🔻 **Wide Top**: Captures all incoming leads
 - 🔄 **Middle Section**: Filters and qualifies leads  

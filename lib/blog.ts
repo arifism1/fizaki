@@ -16,7 +16,7 @@ const CONTENT_DIR = path.join(process.cwd(), "content", "blog");
 export type Post = PostMeta & {
   content: string; // raw markdown body, frontmatter stripped
   updatedDate: string;
-  author: string;
+  author?: string;
   readingTime: string; // "6 min read"
 };
 
@@ -30,7 +30,7 @@ export const getAllPosts = cache((): Post[] => {
       ...meta,
       content: content.trim(),
       updatedDate: (data.updatedDate as string) ?? meta.publishDate,
-      author: (data.author as string) ?? "Arif Ahmed",
+      author: data.author as string | undefined,
       readingTime: `${Math.max(1, Math.round(stats.minutes))} min read`,
     };
   }).sort((a, b) => (a.publishDate < b.publishDate ? 1 : -1));

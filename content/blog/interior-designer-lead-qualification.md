@@ -11,7 +11,6 @@ publishDate: "2026-09-28"
 updatedDate: "2026-09-28"
 accent: "brandPurple"
 schema: ["BlogPosting", "FAQPage"]
-author: "Arif Ahmed"
 ---
 
 Interior designers lose more to unqualified consultations than to missed calls, because a single mismatched site visit consumes half a day that a real client could have had. The solution is to ask three qualifying questions — property type, timeline and budget band — automatically at first contact, before anything reaches your calendar.
@@ -212,8 +211,8 @@ Yes, for the administrative layer. Automation handles the first reply, qualifica
 
 ## Stop giving away Saturdays
 
-arifwork qualifies every design enquiry automatically — property, timeline and budget — so only the right consultations reach your calendar.
+fizaki qualifies every design enquiry automatically — property, timeline and budget — so only the right consultations reach your calendar.
 
-[**Book a free lead-leak audit →**](https://arifwork.com/#quote)
+[**Book a free lead-leak audit →**](https://fizaki.com/#quote)
 
-Related reading: [the 7 places local businesses lose customers](https://arifwork.com/blog/lead-leakage-local-business) and [AI lead qualification](https://arifwork.com/blog/ai-lead-qualification).
+Related reading: [the 7 places local businesses lose customers](https://fizaki.com/blog/lead-leakage-local-business) and [AI lead qualification](https://fizaki.com/blog/ai-lead-qualification).

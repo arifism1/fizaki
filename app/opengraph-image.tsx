@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "arifwork — We make sure no lead slips through";
+export const alt = "fizaki — We make sure no lead slips through";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -48,7 +48,7 @@ export default async function Image() {
               letterSpacing: "-0.02em",
             }}
           >
-            arifwork
+            fizaki
           </span>
         </div>
 

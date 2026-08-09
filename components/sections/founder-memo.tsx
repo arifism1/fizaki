@@ -26,9 +26,11 @@ export function FounderMemo() {
           <div className="mt-10">
             {/* Signature: the display serif, italic and oversized, doing the
                 work a scanned signature would otherwise do. */}
-            <p className="font-display text-[34px] italic leading-none text-ink">
-              {founderMemo.signature}
-            </p>
+            {founderMemo.signature && (
+              <p className="font-display text-[34px] italic leading-none text-ink">
+                {founderMemo.signature}
+              </p>
+            )}
             <p className="mt-3 text-[13px] text-inkMuted">{founderMemo.role}</p>
           </div>
         </Reveal>

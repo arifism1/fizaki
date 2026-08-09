@@ -11,7 +11,6 @@ publishDate: "2026-09-21"
 updatedDate: "2026-09-21"
 accent: "brandTeal"
 schema: ["BlogPosting", "FAQPage"]
-author: "Arif Ahmed"
 ---
 
 Dental clinics miss a disproportionate share of calls because the receptionist is assisting chairside, at lunch, or gone for the day — and dental patients calling with pain do not wait or leave voicemails, they dial the next clinic. The fix is an automated WhatsApp response that answers every unanswered call within 60 seconds, triages urgency, and books the patient into the real appointment book.
@@ -189,8 +188,8 @@ It is already how most Indian patients prefer to communicate, and clinics use it
 
 ## See what your clinic is losing
 
-arifwork's free 20-minute lead-leak audit for dental clinics quantifies your missed calls, no-shows and lapsed recalls, and shows exactly what recovering them is worth.
+fizaki's free 20-minute lead-leak audit for dental clinics quantifies your missed calls, no-shows and lapsed recalls, and shows exactly what recovering them is worth.
 
-[**Book a free lead-leak audit →**](https://arifwork.com/#quote)
+[**Book a free lead-leak audit →**](https://fizaki.com/#quote)
 
-Related reading: [the 7 places local businesses lose customers](https://arifwork.com/blog/lead-leakage-local-business) and [what an AI receptionist is](https://arifwork.com/blog/what-is-an-ai-receptionist).
+Related reading: [the 7 places local businesses lose customers](https://fizaki.com/blog/lead-leakage-local-business) and [what an AI receptionist is](https://fizaki.com/blog/what-is-an-ai-receptionist).

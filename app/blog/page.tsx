@@ -9,7 +9,7 @@ import { WhatsAppFab } from "@/components/whatsapp-fab";
 import { getAllPosts } from "@/lib/blog";
 import { site } from "@/lib/content";
 
-const title = "Blog — arifwork";
+const title = "Blog — fizaki";
 const description =
   "Guides on missed calls, WhatsApp automation, Google reviews and lead conversion for local service businesses in India.";
 

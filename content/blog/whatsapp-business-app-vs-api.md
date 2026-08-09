@@ -11,7 +11,6 @@ publishDate: "2026-08-24"
 updatedDate: "2026-08-24"
 accent: "brandGreen"
 schema: ["BlogPosting", "FAQPage"]
-author: "Arif Ahmed"
 ---
 
 The WhatsApp Business app is a free mobile application where a person manually types every reply, suitable for sole traders and low message volumes. The WhatsApp Business API is a paid programmatic platform that lets software send and receive messages automatically, required for chatbots, AI replies, calendar booking and multi-agent teams. If you want automation, you need the API.
@@ -105,7 +104,7 @@ No-code builders work well for simple decision trees. They struggle when a custo
 7. **Build and test your flows** before pointing live traffic at them.
 8. **Update your Google Business Profile, website and signage** if the number changed.
 
-Full detail on each step is in our [WhatsApp Business API India guide](https://arifwork.com/blog/whatsapp-business-api-india).
+Full detail on each step is in our [WhatsApp Business API India guide](https://fizaki.com/blog/whatsapp-business-api-india).
 
 ---
 
@@ -135,8 +134,8 @@ Yes, if you want them sent automatically. The free app has no scheduling or auto
 
 ## Not sure which you need?
 
-arifwork will tell you honestly — including when the free app is enough. Our free 20-minute lead-leak audit looks at your actual enquiry volume and timing before recommending anything.
+fizaki will tell you honestly — including when the free app is enough. Our free 20-minute lead-leak audit looks at your actual enquiry volume and timing before recommending anything.
 
-[**Book a free lead-leak audit →**](https://arifwork.com/#quote)
+[**Book a free lead-leak audit →**](https://fizaki.com/#quote)
 
-Related reading: [the complete WhatsApp Business API India guide](https://arifwork.com/blog/whatsapp-business-api-india) and [what an AI receptionist is](https://arifwork.com/blog/what-is-an-ai-receptionist).
+Related reading: [the complete WhatsApp Business API India guide](https://fizaki.com/blog/whatsapp-business-api-india) and [what an AI receptionist is](https://fizaki.com/blog/what-is-an-ai-receptionist).

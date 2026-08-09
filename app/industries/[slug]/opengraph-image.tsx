@@ -3,7 +3,7 @@ import { ImageResponse } from "next/og";
 import { INDUSTRIES, getIndustry } from "@/lib/industries";
 
 export const runtime = "edge";
-export const alt = "arifwork — AI lead systems for local businesses";
+export const alt = "fizaki — AI lead systems for local businesses";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -16,7 +16,7 @@ export default async function Image({ params }: { params: { slug: string } }) {
   const accent = industry?.accent ?? "#2563EB";
   const accentAlt = industry?.accentAlt ?? "#06B6D4";
   const eyebrow = industry?.eyebrow ?? "";
-  const lead = industry?.h1.lead ?? "arifwork";
+  const lead = industry?.h1.lead ?? "fizaki";
 
   return new ImageResponse(
     (
@@ -59,7 +59,7 @@ export default async function Image({ params }: { params: { slug: string } }) {
               letterSpacing: "-0.02em",
             }}
           >
-            arifwork
+            fizaki
           </span>
         </div>
 

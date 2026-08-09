@@ -42,14 +42,14 @@ export type IconName =
   | "sparkles";
 
 export const site = {
-  name: "arifwork",
-  wordmark: "arifwork",
+  name: "fizaki",
+  wordmark: "fizaki",
   tagline: "We make sure no lead slips through.",
-  email: "arif@arifwork.com",
+  email: "arif@fizaki.com",
   phone: "9101776379",
-  url: "https://arifwork.com",
+  url: "https://fizaki.com",
   description:
-    "arifwork builds AI systems that answer, qualify and book your leads in under 60 seconds — for clinics, gyms, solar, interiors, brokers and CAs across India.",
+    "fizaki builds AI systems that answer, qualify and book your leads in under 60 seconds — for clinics, gyms, solar, interiors, brokers and CAs across India.",
 } as const;
 
 export const nav = {
@@ -70,7 +70,7 @@ export const hero = {
   headingLineOne: "Every missed call is",
   headingLineTwo: "money walking out the door.",
   subline:
-    "arifwork builds AI systems that answer, qualify, and book your leads in under 60 seconds — then floods your pipeline with more of them.",
+    "fizaki builds AI systems that answer, qualify, and book your leads in under 60 seconds — then floods your pipeline with more of them.",
   primaryCta: "See the 60-Second Demo",
   secondaryCta: "Book a free lead audit",
   trustLine: "For clinics · gyms · solar · interiors · brokers · CAs",
@@ -474,7 +474,7 @@ export const quote = {
       message: "What's broken right now?",
     },
     placeholders: {
-      name: "Arif Ahmed",
+      name: "Priya Sharma",
       phone: "+91 98765 43210",
       message: "We miss about 20 calls a week and never call them back…",
     },
@@ -502,10 +502,10 @@ export const founderMemo = {
   paragraphs: [
     "I kept noticing the same thing about the businesses I admired most. The dentist whose patients drive across the city for her. The solar guy who actually returns to fix what he installed. Brilliant at the work, and quietly losing customers every single week.",
     "Not to better competitors. To a phone that rang while they were busy being good at their job. A form nobody checked. A WhatsApp message seen at midnight and forgotten by morning. The craft was never the problem — the follow-up was.",
-    "So arifwork exists to handle the boring part. The AI answers, asks the obvious questions, offers a slot, and steps aside the moment a real conversation is needed. You keep doing the thing you're actually great at, and nothing slips through while you do it.",
+    "So fizaki exists to handle the boring part. The AI answers, asks the obvious questions, offers a slot, and steps aside the moment a real conversation is needed. You keep doing the thing you're actually great at, and nothing slips through while you do it.",
   ],
-  signature: "Arif Ahmed",
-  role: "Founder, arifwork",
+  signature: "",
+  role: "Founder, fizaki",
 } as const;
 
 export const faq = {
@@ -572,13 +572,13 @@ export const fab = {
   label: "Chat with us on WhatsApp",
   tooltip: "Chat with us",
   message:
-    "Hi arifwork — I'd like to know more about the AI lead system for my business.",
+    "Hi fizaki — I'd like to know more about the AI lead system for my business.",
 } as const;
 
 /** Pre-filled WhatsApp copy for the CTAs that don't go through the quote dialog. */
 export const whatsappMessages = {
   audit:
-    "Hi arifwork — I'd like to book a free 20-minute lead-leak audit for my business.",
-  demo: "Hi arifwork — I'd like to see the 60-second missed-call demo.",
+    "Hi fizaki — I'd like to book a free 20-minute lead-leak audit for my business.",
+  demo: "Hi fizaki — I'd like to see the 60-second missed-call demo.",
   general: fab.message,
 } as const;

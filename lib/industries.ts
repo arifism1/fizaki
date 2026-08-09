@@ -66,7 +66,7 @@ export const INDUSTRIES: Industry[] = [
     glyph: "Stethoscope",
     meta: {
       title:
-        "AI Receptionist & Booking for Clinics and Dental Practices | arifwork",
+        "AI Receptionist & Booking for Clinics and Dental Practices | fizaki",
       description:
         "Every missed patient call answered on WhatsApp in under 60 seconds, with booking, reminders and recalls. Built for Indian clinics and dental practices.",
     },
@@ -75,7 +75,7 @@ export const INDUSTRIES: Industry[] = [
       lead: "Your receptionist is with a patient.",
       emphasis: "Your next patient just called someone else.",
     },
-    sub: "arifwork answers every missed call, sends the patient a WhatsApp booking link within 60 seconds, and fills the chair — while you're still finishing the root canal.",
+    sub: "fizaki answers every missed call, sends the patient a WhatsApp booking link within 60 seconds, and fills the chair — while you're still finishing the root canal.",
     chips: [
       "Keeps your existing number",
       "Nothing new for your front desk to learn",
@@ -152,7 +152,7 @@ export const INDUSTRIES: Industry[] = [
     ],
     script: {
       heading: "A missed call at 9:47 PM, handled without you.",
-      contactName: "Dr. Mehta Dental · arifwork",
+      contactName: "Dr. Mehta Dental · fizaki",
       outcome: "Appointment booked · Thu 11:30 AM · Dr. Mehta",
       turns: [
         {
@@ -236,7 +236,7 @@ export const INDUSTRIES: Industry[] = [
       },
       {
         q: "We already use Practo. Does this replace it?",
-        a: "No. Practo brings you some patients; arifwork makes sure the ones who call you directly, at any hour, actually get booked. The two run side by side.",
+        a: "No. Practo brings you some patients; fizaki makes sure the ones who call you directly, at any hour, actually get booked. The two run side by side.",
       },
       {
         q: "Our front desk is worried about being replaced.",
@@ -267,7 +267,7 @@ export const INDUSTRIES: Industry[] = [
     skyTint: "#C2410C",
     glyph: "Dumbbell",
     meta: {
-      title: "Instant Lead Response & Trial Booking for Gyms | arifwork",
+      title: "Instant Lead Response & Trial Booking for Gyms | fizaki",
       description:
         "Reply to every trial enquiry in seconds, book the trial, make sure they show up, and win back lapsed members. Built for Indian gyms and fitness studios.",
     },
@@ -276,7 +276,7 @@ export const INDUSTRIES: Industry[] = [
       lead: "A trial enquiry has a shelf life of",
       emphasis: "about ten minutes.",
     },
-    sub: "arifwork replies the second someone asks, books the free trial, reminds them to actually turn up, and chases the ones who ghost — so your floor stays full.",
+    sub: "fizaki replies the second someone asks, books the free trial, reminds them to actually turn up, and chases the ones who ghost — so your floor stays full.",
     chips: [
       "Instagram DMs, calls and walk-in forms in one place",
       "Your trainers stay on the floor",
@@ -353,7 +353,7 @@ export const INDUSTRIES: Industry[] = [
     ],
     script: {
       heading: "An Instagram DM at 11:41 PM, converted before breakfast.",
-      contactName: "Iron Yard Fitness · arifwork",
+      contactName: "Iron Yard Fitness · fizaki",
       outcome: "Free trial booked · Sat 7:00 AM · Coach Rahul",
       turns: [
         { from: "lead", text: "hi is there any trial session?", delay: 0 },
@@ -456,7 +456,7 @@ export const INDUSTRIES: Industry[] = [
     skyTint: "#6D28D9",
     glyph: "Sofa",
     meta: {
-      title: "AI Lead Qualification for Interior Design Studios | arifwork",
+      title: "AI Lead Qualification for Interior Design Studios | fizaki",
       description:
         "Qualify budget, property size, city and timeline before the call reaches you. Built for Indian interior design studios and turnkey contractors.",
     },
@@ -465,7 +465,7 @@ export const INDUSTRIES: Industry[] = [
       lead: "You just spent an hour on a call with someone whose budget was",
       emphasis: "a tenth of your minimum.",
     },
-    sub: "arifwork qualifies budget, property size, possession date and city before anything reaches your calendar — so you only have conversations worth having.",
+    sub: "fizaki qualifies budget, property size, possession date and city before anything reaches your calendar — so you only have conversations worth having.",
     chips: [
       "Filters out tyre-kickers automatically",
       "Sends your portfolio instantly",
@@ -542,7 +542,7 @@ export const INDUSTRIES: Industry[] = [
     ],
     script: {
       heading: "An enquiry qualified in four minutes, without you.",
-      contactName: "Studio Verge Interiors · arifwork",
+      contactName: "Studio Verge Interiors · fizaki",
       outcome: "Consultation booked · Qualified · 3BHK, ₹18L+ band",
       turns: [
         {
@@ -662,7 +662,7 @@ export const INDUSTRIES: Industry[] = [
     glyph: "Sun",
     meta: {
       title:
-        "Lead Qualification & Site Survey Booking for Solar Installers | arifwork",
+        "Lead Qualification & Site Survey Booking for Solar Installers | fizaki",
       description:
         "Screen roof ownership, bill size and city before your team drives anywhere. Built for Indian rooftop solar installers and EPC companies.",
     },
@@ -671,7 +671,7 @@ export const INDUSTRIES: Industry[] = [
       lead: "Half your enquiries live in",
       emphasis: "a rented flat with no roof.",
     },
-    sub: "arifwork checks roof ownership, monthly bill and location before your team drives anywhere — so every site survey on the calendar is a real one.",
+    sub: "fizaki checks roof ownership, monthly bill and location before your team drives anywhere — so every site survey on the calendar is a real one.",
     chips: [
       "Screens tenants and tiny bills automatically",
       "Answers subsidy questions on its own",
@@ -748,7 +748,7 @@ export const INDUSTRIES: Industry[] = [
     ],
     script: {
       heading: "A lead qualified before anyone starts the car.",
-      contactName: "Suryodaya Solar · arifwork",
+      contactName: "Suryodaya Solar · fizaki",
       outcome:
         "Site survey booked · Sat 10 AM · Qualified: owned roof, ₹7,200 bill",
       turns: [
@@ -863,7 +863,7 @@ export const INDUSTRIES: Industry[] = [
     glyph: "KeyRound",
     meta: {
       title:
-        "Instant Portal Lead Response & Site Visit Booking for Brokers | arifwork",
+        "Instant Portal Lead Response & Site Visit Booking for Brokers | fizaki",
       description:
         "Answer 99acres, Housing and MagicBricks leads in seconds, qualify budget and configuration, and book the site visit. Built for Indian real estate brokers.",
     },
@@ -872,7 +872,7 @@ export const INDUSTRIES: Industry[] = [
       lead: "The buyer who called during your site visit",
       emphasis: "called three other brokers too.",
     },
-    sub: "arifwork answers instantly, captures budget, configuration and possession timeline, and puts the site visit in your calendar before your competitor picks up.",
+    sub: "fizaki answers instantly, captures budget, configuration and possession timeline, and puts the site visit in your calendar before your competitor picks up.",
     chips: [
       "Answers portal leads in seconds",
       "Sends matching listings automatically",
@@ -949,7 +949,7 @@ export const INDUSTRIES: Industry[] = [
     ],
     script: {
       heading: "A 99acres lead, answered in eleven seconds.",
-      contactName: "Skyline Realty · arifwork",
+      contactName: "Skyline Realty · fizaki",
       outcome: "Site visit booked · Sun 11 AM · 3BHK, Whitefield",
       turns: [
         {
@@ -1065,7 +1065,7 @@ export const INDUSTRIES: Industry[] = [
     skyTint: "#115E59",
     glyph: "FileSpreadsheet",
     meta: {
-      title: "AI Support Desk & Client Intake for Chartered Accountants | arifwork",
+      title: "AI Support Desk & Client Intake for Chartered Accountants | fizaki",
       description:
         "Answer repetitive filing questions, collect documents, screen enquiries and book consultations — without hiring for two months. Built for Indian CA practices.",
     },
@@ -1074,7 +1074,7 @@ export const INDUSTRIES: Industry[] = [
       lead: "In filing season your phone becomes",
       emphasis: "a denial-of-service attack.",
     },
-    sub: "arifwork answers the repetitive questions, collects the documents, screens which enquiries deserve your time, and books the ones that do — without you hiring for two months.",
+    sub: "fizaki answers the repetitive questions, collects the documents, screens which enquiries deserve your time, and books the ones that do — without you hiring for two months.",
     chips: [
       "Handles the same forty questions forever",
       "Chases documents so you don't",
@@ -1151,7 +1151,7 @@ export const INDUSTRIES: Industry[] = [
     ],
     script: {
       heading: "A 10:15 PM query in filing season, resolved without you.",
-      contactName: "Rao & Associates · arifwork",
+      contactName: "Rao & Associates · fizaki",
       outcome: "Documents received · Consultation booked · Fri 5 PM",
       turns: [
         {

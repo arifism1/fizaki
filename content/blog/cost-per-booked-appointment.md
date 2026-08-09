@@ -11,7 +11,6 @@ publishDate: "2026-09-17"
 updatedDate: "2026-09-17"
 accent: "brandPurple"
 schema: ["BlogPosting", "FAQPage"]
-author: "Arif Ahmed"
 ---
 
 Cost per booked appointment is your total marketing spend divided by the number of confirmed appointments it produced. It is the most useful metric for a local service business because it measures the outcome you actually sell — unlike clicks, impressions or raw leads, all of which can rise while revenue stays flat. Tracking it requires connecting your ad platforms to your booking system.
@@ -135,7 +134,7 @@ The faster lever is **the middle of the funnel**:
 
 The reason is arithmetic. Ad optimisation improves the top of the funnel by percentage points. Answering every lead instead of half of them changes the denominator of every calculation below it.
 
-This is the core argument in [speed to lead](https://arifwork.com/blog/speed-to-lead) and [lead leakage](https://arifwork.com/blog/lead-leakage-local-business).
+This is the core argument in [speed to lead](https://fizaki.com/blog/speed-to-lead) and [lead leakage](https://fizaki.com/blog/lead-leakage-local-business).
 
 ---
 
@@ -179,8 +178,8 @@ It depends on customer value. Calculate your ceiling as average customer value m
 
 ## See the number for your business
 
-arifwork tracks every enquiry from first click to confirmed appointment, including the ones that currently go unanswered and unrecorded.
+fizaki tracks every enquiry from first click to confirmed appointment, including the ones that currently go unanswered and unrecorded.
 
-[**Book a free lead-leak audit →**](https://arifwork.com/#quote)
+[**Book a free lead-leak audit →**](https://fizaki.com/#quote)
 
-Related reading: [how much to spend on ads in India](https://arifwork.com/blog/local-business-ad-budget-india) and [speed to lead](https://arifwork.com/blog/speed-to-lead).
+Related reading: [how much to spend on ads in India](https://fizaki.com/blog/local-business-ad-budget-india) and [speed to lead](https://fizaki.com/blog/speed-to-lead).

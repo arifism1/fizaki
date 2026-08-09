@@ -11,7 +11,6 @@ publishDate: "2026-10-12"
 updatedDate: "2026-10-12"
 accent: "brandTeal"
 schema: ["BlogPosting", "FAQPage"]
-author: "Arif Ahmed"
 ---
 
 AI should handle the parts of a sales conversation that are repetitive, time-sensitive and factual — first response, requirement gathering, scheduling and follow-up. It should hand over anything requiring professional judgement, emotional sensitivity, negotiation or trust-building. The dividing line is not complexity; it is whether a wrong answer would cause real harm.
@@ -48,7 +47,7 @@ This is the entire framework. Everything below is application.
 
 ## What AI should always handle
 
-**1. The first response.** Always. There is no scenario where a slow human reply beats an instant machine reply, because the alternative is silence. This is the core of [speed to lead](https://arifwork.com/blog/speed-to-lead).
+**1. The first response.** Always. There is no scenario where a slow human reply beats an instant machine reply, because the alternative is silence. This is the core of [speed to lead](https://fizaki.com/blog/speed-to-lead).
 
 **2. Requirement gathering.** Budget bands, timelines, property types, goals, service needed. Structured, factual, repetitive — and better done by a machine, which never forgets to ask question three.
 
@@ -163,8 +162,8 @@ Generally not, if it is fast, useful and honest. Customers dislike being ignored
 
 ## Draw the line correctly
 
-arifwork designs the boundary with you — what the AI handles, what escalates, and how the handover works — before anything goes live.
+fizaki designs the boundary with you — what the AI handles, what escalates, and how the handover works — before anything goes live.
 
-[**Book a free lead-leak audit →**](https://arifwork.com/#quote)
+[**Book a free lead-leak audit →**](https://fizaki.com/#quote)
 
-Related reading: [what an AI receptionist is](https://arifwork.com/blog/what-is-an-ai-receptionist) and [how to set one up](https://arifwork.com/blog/how-to-set-up-ai-missed-call-receptionist).
+Related reading: [what an AI receptionist is](https://fizaki.com/blog/what-is-an-ai-receptionist) and [how to set one up](https://fizaki.com/blog/how-to-set-up-ai-missed-call-receptionist).

@@ -24,7 +24,7 @@ export function Logo({
   variant = "mark",
   size = "md",
   className = "",
-  alt = "Arifwork logo",
+  alt = "fizaki logo",
 }: LogoProps) {
   const width = SIZES[size][variant];
   const height = Math.round(width / ASPECT_RATIOS[variant]);

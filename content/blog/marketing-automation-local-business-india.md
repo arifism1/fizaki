@@ -11,7 +11,6 @@ publishDate: "2026-10-15"
 updatedDate: "2026-10-15"
 accent: "brandPurple"
 schema: ["BlogPosting", "FAQPage"]
-author: "Arif Ahmed"
 ---
 
 Marketing automation for a local business means using software to handle the repetitive parts of getting and keeping customers — responding to enquiries, qualifying leads, booking appointments, sending reminders, following up and requesting reviews. For Indian local service businesses the highest-return sequence is fixed: fix response speed first, then reminders, then follow-up, then reviews, and only then increase advertising.
@@ -64,7 +63,7 @@ This order is not arbitrary. Each step increases the return on the next.
 
 Answer every enquiry — call, WhatsApp, Instagram DM, form — within 60 seconds, automatically.
 
-This is first because it is the largest leak, the cheapest fix, and it multiplies the value of everything you already spend. Detail: [how to set up an AI missed-call receptionist](https://arifwork.com/blog/how-to-set-up-ai-missed-call-receptionist).
+This is first because it is the largest leak, the cheapest fix, and it multiplies the value of everything you already spend. Detail: [how to set up an AI missed-call receptionist](https://fizaki.com/blog/how-to-set-up-ai-missed-call-receptionist).
 
 ### Step 2: Booking and reminders (weeks 2–3)
 
@@ -74,7 +73,7 @@ Second because it is trivial to implement and produces an immediately visible re
 
 ### Step 3: Qualification (weeks 3–4)
 
-Two to five questions, asked automatically, before anything reaches your calendar. Most valuable for designers, solar installers, brokers and CAs, where consultations are expensive. Detail: [AI lead qualification](https://arifwork.com/blog/ai-lead-qualification).
+Two to five questions, asked automatically, before anything reaches your calendar. Most valuable for designers, solar installers, brokers and CAs, where consultations are expensive. Detail: [AI lead qualification](https://fizaki.com/blog/ai-lead-qualification).
 
 ### Step 4: Follow-up sequences (weeks 4–5)
 
@@ -82,7 +81,7 @@ Structured sequences for quotes, trials and site visits that went quiet. Recover
 
 ### Step 5: Review engine (week 5)
 
-Automatic review requests after every completed job. Compounds slowly and permanently. Detail: [how to get more Google reviews](https://arifwork.com/blog/get-more-google-reviews).
+Automatic review requests after every completed job. Compounds slowly and permanently. Detail: [how to get more Google reviews](https://fizaki.com/blog/get-more-google-reviews).
 
 ### Step 6: Reactivation (weeks 6–7)
 
@@ -90,7 +89,7 @@ Six-month dental recalls, lapsed gym members, annual CA filings, past property c
 
 ### Step 7: Only now, increase advertising
 
-With the funnel sealed, every additional rupee of ad spend converts at a far higher rate. Detail: [how much to spend on ads in India](https://arifwork.com/blog/local-business-ad-budget-india).
+With the funnel sealed, every additional rupee of ad spend converts at a far higher rate. Detail: [how much to spend on ads in India](https://fizaki.com/blog/local-business-ad-budget-india).
 
 **Doing step 7 first is the most common and most expensive mistake in Indian local marketing.** It scales the leak.
 
@@ -100,14 +99,14 @@ With the funnel sealed, every additional rupee of ad spend converts at a far hig
 
 | Layer | What it does | Notes |
 | --- | --- | --- |
-| **WhatsApp Business API** | The primary messaging channel | Requires Meta Business Verification. [Guide](https://arifwork.com/blog/whatsapp-business-api-india) |
+| **WhatsApp Business API** | The primary messaging channel | Requires Meta Business Verification. [Guide](https://fizaki.com/blog/whatsapp-business-api-india) |
 | **Missed-call detection** | Triggers response on unanswered calls | Conditional forwarding or call tracking |
-| **Instagram Messaging API** | Captures DM enquiries | 24-hour window applies. [Guide](https://arifwork.com/blog/automate-instagram-dms) |
+| **Instagram Messaging API** | Captures DM enquiries | 24-hour window applies. [Guide](https://fizaki.com/blog/automate-instagram-dms) |
 | **AI conversation layer** | Understands, qualifies, replies | Narrow scope, explicit guardrails |
 | **Calendar** | Real availability, real bookings | Google Calendar or practice software |
 | **Lead record** | One place where every enquiry is logged | Even a well-structured sheet beats nothing |
-| **Google Business Profile** | Free local discovery | [Checklist](https://arifwork.com/blog/google-business-profile-checklist) |
-| **Reporting** | Response time, bookings, cost per booking | [Guide](https://arifwork.com/blog/cost-per-booked-appointment) |
+| **Google Business Profile** | Free local discovery | [Checklist](https://fizaki.com/blog/google-business-profile-checklist) |
+| **Reporting** | Response time, bookings, cost per booking | [Guide](https://fizaki.com/blog/cost-per-booked-appointment) |
 
 You do not need a CRM to begin. You need every enquiry recorded in one place and answered in under a minute.
 
@@ -150,7 +149,7 @@ Businesses that try to build all of this simultaneously typically launch nothing
 
 **Automating before fixing the basics.** If your Google Business Profile is unclaimed and you have four reviews, start there.
 
-**Over-automating the relationship.** Customers accept automated logistics. They resent automated intimacy. Keep judgement, negotiation and emotional conversations human — see [AI lead qualification](https://arifwork.com/blog/ai-lead-qualification).
+**Over-automating the relationship.** Customers accept automated logistics. They resent automated intimacy. Keep judgement, negotiation and emotional conversations human — see [AI lead qualification](https://fizaki.com/blog/ai-lead-qualification).
 
 **No human escape hatch.** "Talk to a person" must always work, instantly.
 
@@ -192,8 +191,8 @@ Only if you automate the wrong things. Customers experience instant, accurate, h
 
 ## Build it in the right order
 
-arifwork installs this exact stack for Indian local service businesses — clinics, gyms, studios, solar installers, brokers and CA practices — in the order that produces returns fastest.
+fizaki installs this exact stack for Indian local service businesses — clinics, gyms, studios, solar installers, brokers and CA practices — in the order that produces returns fastest.
 
-[**Book a free lead-leak audit →**](https://arifwork.com/#quote)
+[**Book a free lead-leak audit →**](https://fizaki.com/#quote)
 
-Related reading: [lead leakage](https://arifwork.com/blog/lead-leakage-local-business) and [missed call statistics for Indian small businesses](https://arifwork.com/blog/missed-call-statistics-india).
+Related reading: [lead leakage](https://fizaki.com/blog/lead-leakage-local-business) and [missed call statistics for Indian small businesses](https://fizaki.com/blog/missed-call-statistics-india).
