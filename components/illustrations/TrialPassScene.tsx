@@ -3,6 +3,7 @@
 import { motion, useReducedMotion } from "framer-motion";
 
 import { EASE } from "@/lib/motion";
+import { useInViewGate } from "@/lib/use-in-view";
 
 /**
  * A tilted "7-DAY FREE TRIAL" membership card with a barcode and a perforated
@@ -17,6 +18,8 @@ export function TrialPassScene({
   accentAlt?: string;
 }) {
   const reduce = useReducedMotion();
+  const { ref, inView } = useInViewGate<SVGSVGElement>();
+  const animating = inView && !reduce;
 
   const confetti = [
     { x: 250, y: 70, c: accent },
@@ -26,6 +29,7 @@ export function TrialPassScene({
 
   return (
     <svg
+      ref={ref}
       viewBox="0 0 440 340"
       className="h-auto w-full"
       role="img"
@@ -133,9 +137,9 @@ export function TrialPassScene({
 
       {/* Bobbing dumbbell */}
       <motion.g
-        animate={reduce ? undefined : { y: [0, -10, 0] }}
+        animate={animating ? { y: [0, -10, 0] } : undefined}
         transition={
-          reduce ? undefined : { duration: 3, repeat: Infinity, ease: "easeInOut" }
+          animating ? { duration: 3, repeat: Infinity, ease: "easeInOut" } : undefined
         }
       >
         <g stroke="#0F0F0F" strokeWidth="0" filter="url(#tp-shadow)">

@@ -3,6 +3,7 @@
 import { motion, useReducedMotion } from "framer-motion";
 
 import { EASE } from "@/lib/motion";
+import { useInViewGate } from "@/lib/use-in-view";
 
 /**
  * A bobbing isometric key beside three building silhouettes, a map pin that
@@ -16,9 +17,12 @@ export function SiteVisitKeyScene({
   accentAlt?: string;
 }) {
   const reduce = useReducedMotion();
+  const { ref, inView } = useInViewGate<SVGSVGElement>();
+  const animating = inView && !reduce;
 
   return (
     <svg
+      ref={ref}
       viewBox="0 0 440 340"
       className="h-auto w-full"
       role="img"
@@ -52,9 +56,9 @@ export function SiteVisitKeyScene({
 
       {/* Bobbing key with faked isometric depth */}
       <motion.g
-        animate={reduce ? undefined : { y: [0, -8, 0] }}
+        animate={animating ? { y: [0, -8, 0] } : undefined}
         transition={
-          reduce ? undefined : { duration: 3.4, repeat: Infinity, ease: "easeInOut" }
+          animating ? { duration: 3.4, repeat: Infinity, ease: "easeInOut" } : undefined
         }
       >
         {/* back face for depth */}
@@ -74,7 +78,7 @@ export function SiteVisitKeyScene({
 
       {/* Map pin drops in with a bounce, over ripple rings */}
       <g transform="translate(300 236)">
-        {!reduce &&
+        {animating &&
           [0, 1].map((i) => (
             <motion.circle
               key={i}
@@ -85,8 +89,7 @@ export function SiteVisitKeyScene({
               stroke={accent}
               strokeWidth="2"
               initial={{ scale: 0.4, opacity: 0 }}
-              whileInView={{ scale: [0.4, 2.4], opacity: [0.6, 0] }}
-              viewport={{ once: true, margin: "-60px" }}
+              animate={{ scale: [0.4, 2.4], opacity: [0.6, 0] }}
               transition={{
                 delay: 0.7 + i * 0.4,
                 duration: 1.4,

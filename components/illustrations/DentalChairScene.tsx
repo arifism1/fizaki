@@ -3,6 +3,7 @@
 import { motion, useReducedMotion } from "framer-motion";
 
 import { EASE } from "@/lib/motion";
+import { useInViewGate } from "@/lib/use-in-view";
 
 /**
  * A side-profile dental chair under an overhead lamp. An appointment card slides
@@ -11,6 +12,8 @@ import { EASE } from "@/lib/motion";
  */
 export function DentalChairScene({ accent }: { accent: string; accentAlt?: string }) {
   const reduce = useReducedMotion();
+  const { ref, inView } = useInViewGate<SVGSVGElement>();
+  const animating = inView && !reduce;
 
   // 12-point circular path for the orbiting tooth, centred on the lamp.
   const R = 30;
@@ -24,6 +27,7 @@ export function DentalChairScene({ accent }: { accent: string; accentAlt?: strin
 
   return (
     <svg
+      ref={ref}
       viewBox="0 0 440 340"
       className="h-auto w-full"
       role="img"
@@ -58,11 +62,11 @@ export function DentalChairScene({ accent }: { accent: string; accentAlt?: strin
         cy="100"
         r="46"
         fill="url(#dc-glow)"
-        animate={reduce ? undefined : { opacity: [0.5, 1, 0.5], scale: [1, 1.08, 1] }}
+        animate={animating ? { opacity: [0.5, 1, 0.5], scale: [1, 1.08, 1] } : undefined}
         transition={
-          reduce
-            ? undefined
-            : { duration: 4, repeat: Infinity, ease: "easeInOut" }
+          animating
+            ? { duration: 4, repeat: Infinity, ease: "easeInOut" }
+            : undefined
         }
         style={{ transformOrigin: "248px 100px" } as React.CSSProperties}
       />
@@ -71,11 +75,11 @@ export function DentalChairScene({ accent }: { accent: string; accentAlt?: strin
 
       {/* Orbiting tooth (translated around the lamp centre) */}
       <motion.g
-        animate={reduce ? undefined : { x: orbitX, y: orbitY }}
+        animate={animating ? { x: orbitX, y: orbitY } : undefined}
         transition={
-          reduce
-            ? undefined
-            : { duration: 7, repeat: Infinity, ease: "linear", times: undefined }
+          animating
+            ? { duration: 7, repeat: Infinity, ease: "linear", times: undefined }
+            : undefined
         }
       >
         <path

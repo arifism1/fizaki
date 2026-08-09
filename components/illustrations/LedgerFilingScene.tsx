@@ -20,6 +20,9 @@ export function LedgerFilingScene({
   const reduce = useReducedMotion();
   const ref = useRef<SVGSVGElement>(null);
   const inView = useInView(ref, { once: true, margin: "-60px" });
+  // Live visibility (resets when scrolled away) so the looping ring can pause.
+  const liveInView = useInView(ref, { margin: "120px 0px" });
+  const animating = liveInView && !reduce;
   const [count, setCount] = useState(reduce ? 142 : 0);
 
   useEffect(() => {
@@ -121,8 +124,8 @@ export function LedgerFilingScene({
           fill="none"
           stroke="#EF4444"
           strokeWidth="2.4"
-          animate={reduce ? undefined : { scale: [1, 1.18, 1], opacity: [1, 0.55, 1] }}
-          transition={reduce ? undefined : { duration: 2, repeat: Infinity, ease: "easeInOut" }}
+          animate={animating ? { scale: [1, 1.18, 1], opacity: [1, 0.55, 1] } : undefined}
+          transition={animating ? { duration: 2, repeat: Infinity, ease: "easeInOut" } : undefined}
           style={{ transformOrigin: "118px 135px" } as React.CSSProperties}
         />
       </g>

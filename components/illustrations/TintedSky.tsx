@@ -2,6 +2,7 @@
 
 import { motion, useReducedMotion } from "framer-motion";
 
+import { useInViewGate } from "@/lib/use-in-view";
 import { cn } from "@/lib/utils";
 
 /**
@@ -40,8 +41,8 @@ function buildStars(count: number, seed: number): Star[] {
   });
 }
 
-const STARS = buildStars(60, 20260807);
-const STARS_SOFT = buildStars(26, 99117);
+const STARS = buildStars(44, 20260807);
+const STARS_SOFT = buildStars(20, 99117);
 
 /** Ordered [color, position%] stops for each base sky. */
 const HERO_STOPS: [string, number][] = [
@@ -114,6 +115,10 @@ export function TintedSky({
   className?: string;
 }) {
   const reduceMotion = useReducedMotion();
+  // Pause every loop (twinkle + drifting clouds) once this full-viewport
+  // backdrop scrolls out of view — it otherwise composites forever.
+  const { ref, inView } = useInViewGate<HTMLDivElement>();
+  const animating = inView && !reduceMotion;
   const cta = variant === "cta";
   const stars = cta ? STARS_SOFT : STARS;
   const gradient = tintedGradient(
@@ -124,6 +129,7 @@ export function TintedSky({
 
   return (
     <div
+      ref={ref}
       aria-hidden
       className={cn(
         "pointer-events-none absolute inset-0 overflow-hidden",
@@ -146,6 +152,7 @@ export function TintedSky({
                 width: star.size,
                 height: star.size,
                 opacity: star.max,
+                animationPlayState: inView ? "running" : "paused",
                 "--star-min": star.min,
                 "--star-max": star.max,
                 "--star-dur": `${star.dur}s`,
@@ -167,18 +174,26 @@ export function TintedSky({
         }}
       />
 
-      {/* Two slow-drifting cloud blobs */}
+      {/* Two slow-drifting cloud blobs — only animate while the sky is on screen. */}
       {!reduceMotion && (
         <>
           <motion.div
             className="absolute left-[-10%] top-[38%] h-24 w-[420px] rounded-full bg-white/12 blur-2xl"
-            animate={{ x: ["0%", "60%", "0%"] }}
-            transition={{ duration: 52, repeat: Infinity, ease: "linear" }}
+            animate={animating ? { x: ["0%", "60%", "0%"] } : { x: "0%" }}
+            transition={
+              animating
+                ? { duration: 52, repeat: Infinity, ease: "linear" }
+                : { duration: 0 }
+            }
           />
           <motion.div
             className="absolute right-[-14%] top-[52%] h-20 w-[340px] rounded-full bg-white/10 blur-2xl"
-            animate={{ x: ["0%", "-50%", "0%"] }}
-            transition={{ duration: 44, repeat: Infinity, ease: "linear" }}
+            animate={animating ? { x: ["0%", "-50%", "0%"] } : { x: "0%" }}
+            transition={
+              animating
+                ? { duration: 44, repeat: Infinity, ease: "linear" }
+                : { duration: 0 }
+            }
           />
         </>
       )}

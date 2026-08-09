@@ -3,6 +3,7 @@
 import { motion, useReducedMotion } from "framer-motion";
 
 import { EASE } from "@/lib/motion";
+import { useInViewGate } from "@/lib/use-in-view";
 
 /**
  * An isometric rooftop whose six solar panels tilt into place one by one, under
@@ -17,6 +18,8 @@ export function RooftopSolarScene({
   accentAlt?: string;
 }) {
   const reduce = useReducedMotion();
+  const { ref, inView } = useInViewGate<SVGSVGElement>();
+  const animating = inView && !reduce;
 
   // 2 rows × 3 columns of panels on the skewed roof plane.
   const panels = [];
@@ -28,6 +31,7 @@ export function RooftopSolarScene({
 
   return (
     <svg
+      ref={ref}
       viewBox="0 0 440 340"
       className="h-auto w-full"
       role="img"
@@ -42,9 +46,9 @@ export function RooftopSolarScene({
       {/* Sun with rotating rays */}
       <g transform="translate(356 74)">
         <motion.g
-          animate={reduce ? undefined : { rotate: 360 }}
+          animate={animating ? { rotate: 360 } : undefined}
           transition={
-            reduce ? undefined : { duration: 26, repeat: Infinity, ease: "linear" }
+            animating ? { duration: 26, repeat: Infinity, ease: "linear" } : undefined
           }
           style={{ transformOrigin: "0px 0px" } as React.CSSProperties}
         >
