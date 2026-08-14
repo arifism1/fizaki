@@ -58,11 +58,11 @@ export function RobotReceptionist({ className }: { className?: string }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.4 }}
         >
-          <rect x="106" y="10" width="92" height="34" rx="17" fill="#FFFFFF" />
-          <path d="M118 44 l-8 12 l16 -7 Z" fill="#FFFFFF" />
+          <rect x="40" y="8" width="156" height="36" rx="18" fill="#FFFFFF" />
+          <path d="M80 44 l-8 12 l16 -7 Z" fill="#FFFFFF" />
           <text
-            x="152"
-            y="32"
+            x="118"
+            y="30"
             textAnchor="middle"
             fill="#0F0F0F"
             fontSize="13"

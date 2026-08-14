@@ -1,3 +1,4 @@
+import { emphasizeBrand } from "@/components/ui/emphasize-brand";
 import { Reveal } from "@/components/ui/reveal";
 import { Section } from "@/components/ui/section";
 import { founderMemo } from "@/lib/content";
@@ -16,7 +17,7 @@ export function FounderMemo() {
           {founderMemo.paragraphs.map((para, i) => (
             <Reveal key={para} delay={0.08 * i}>
               <p className="text-[15px] leading-[1.75] text-inkBody md:text-base">
-                {para}
+                {emphasizeBrand(para)}
               </p>
             </Reveal>
           ))}
@@ -31,7 +32,9 @@ export function FounderMemo() {
                 {founderMemo.signature}
               </p>
             )}
-            <p className="mt-3 text-[13px] text-inkMuted">{founderMemo.role}</p>
+            <p className="mt-3 text-[13px] text-inkMuted">
+              {emphasizeBrand(founderMemo.role)}
+            </p>
           </div>
         </Reveal>
       </div>

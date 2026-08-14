@@ -70,7 +70,7 @@ export function QuoteDialog({
     // Built by push rather than filter(Boolean) so the deliberate blank
     // separator lines survive.
     const lines = [
-      "Hi fizaki — I'd like a quote.",
+      "Hi _fizaki_ — I'd like a quote.",
       "",
       `Name: ${name.trim()}`,
       `Business: ${business}`,

@@ -10,6 +10,7 @@ import {
 } from "framer-motion";
 
 import { TintedSky } from "@/components/illustrations/TintedSky";
+import { emphasizeBrand } from "@/components/ui/emphasize-brand";
 import { Pill } from "@/components/ui/pill";
 import { EASE } from "@/lib/motion";
 import type { Industry } from "@/lib/industries";
@@ -139,7 +140,7 @@ export function IndustryHero({
           transition={{ duration: 0.7, delay: 0.14, ease: EASE }}
           className="mx-auto mt-6 max-w-[620px] text-[15px] leading-[1.65] text-white/80 md:text-base"
         >
-          {industry.sub}
+          {emphasizeBrand(industry.sub)}
         </motion.p>
 
         <motion.div

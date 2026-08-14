@@ -4,6 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { emphasizeBrand } from "@/components/ui/emphasize-brand";
 import { Reveal } from "@/components/ui/reveal";
 import { Section } from "@/components/ui/section";
 import { SectionHeading } from "@/components/ui/section-heading";
@@ -28,7 +29,7 @@ export function ObjectionFAQ({ industry }: { industry: Industry }) {
           {industry.faqs.map((item, i) => (
             <AccordionItem key={item.q} value={`item-${i}`}>
               <AccordionTrigger>{item.q}</AccordionTrigger>
-              <AccordionContent>{item.a}</AccordionContent>
+              <AccordionContent>{emphasizeBrand(item.a)}</AccordionContent>
             </AccordionItem>
           ))}
         </Accordion>

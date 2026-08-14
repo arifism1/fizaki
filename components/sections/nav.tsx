@@ -102,7 +102,7 @@ export function Nav({ solid = false }: { solid?: boolean }) {
           </span>
           <span
             className={cn(
-              "text-[17px] font-semibold lowercase tracking-[-0.01em] transition-colors duration-300",
+              "text-[17px] font-semibold italic lowercase tracking-[-0.01em] transition-colors duration-300",
               scrolled ? "text-ink" : "text-white",
             )}
           >
@@ -307,7 +307,7 @@ export function Nav({ solid = false }: { solid?: boolean }) {
                     />
                   </svg>
                 </span>
-                <span className="text-[17px] font-semibold lowercase text-ink">
+                <span className="text-[17px] font-semibold italic lowercase text-ink">
                   {site.wordmark}
                 </span>
               </span>

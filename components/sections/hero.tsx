@@ -6,6 +6,7 @@ import { ArrowRight } from "lucide-react";
 
 import { DuskSkyBackdrop } from "@/components/illustrations/dusk-sky-backdrop";
 import { PhoneRescueMockup } from "@/components/illustrations/phone-rescue-mockup";
+import { emphasizeBrand } from "@/components/ui/emphasize-brand";
 import { Pill } from "@/components/ui/pill";
 import { finalCta, hero } from "@/lib/content";
 import { EASE } from "@/lib/motion";
@@ -83,7 +84,7 @@ export function Hero() {
           animate="visible"
           className="mx-auto mt-7 max-w-[620px] text-[15px] leading-[1.65] text-white/80 md:text-base"
         >
-          {hero.subline}
+          {emphasizeBrand(hero.subline)}
         </motion.p>
 
         <motion.div

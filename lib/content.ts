@@ -498,14 +498,14 @@ export const quote = {
 
 export const founderMemo = {
   id: "founder-memo",
-  eyebrow: "Founder memo",
+  eyebrow: "Team memo",
   paragraphs: [
     "I kept noticing the same thing about the businesses I admired most. The dentist whose patients drive across the city for her. The solar guy who actually returns to fix what he installed. Brilliant at the work, and quietly losing customers every single week.",
     "Not to better competitors. To a phone that rang while they were busy being good at their job. A form nobody checked. A WhatsApp message seen at midnight and forgotten by morning. The craft was never the problem — the follow-up was.",
     "So fizaki exists to handle the boring part. The AI answers, asks the obvious questions, offers a slot, and steps aside the moment a real conversation is needed. You keep doing the thing you're actually great at, and nothing slips through while you do it.",
   ],
   signature: "",
-  role: "Founder, fizaki",
+  role: "Team, fizaki",
 } as const;
 
 export const faq = {
@@ -572,13 +572,13 @@ export const fab = {
   label: "Chat with us on WhatsApp",
   tooltip: "Chat with us",
   message:
-    "Hi fizaki — I'd like to know more about the AI lead system for my business.",
+    "Hi _fizaki_ — I'd like to know more about the AI lead system for my business.",
 } as const;
 
 /** Pre-filled WhatsApp copy for the CTAs that don't go through the quote dialog. */
 export const whatsappMessages = {
   audit:
-    "Hi fizaki — I'd like to book a free 20-minute lead-leak audit for my business.",
-  demo: "Hi fizaki — I'd like to see the 60-second missed-call demo.",
+    "Hi _fizaki_ — I'd like to book a free 20-minute lead-leak audit for my business.",
+  demo: "Hi _fizaki_ — I'd like to see the 60-second missed-call demo.",
   general: fab.message,
 } as const;

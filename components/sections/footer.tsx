@@ -44,7 +44,7 @@ export function Footer() {
                   />
                 </svg>
               </span>
-              <span className="text-[17px] font-semibold lowercase text-ink">
+              <span className="text-[17px] font-semibold italic lowercase text-ink">
                 {site.wordmark}
               </span>
             </span>

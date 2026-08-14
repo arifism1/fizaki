@@ -9,6 +9,7 @@ import {
 } from "framer-motion";
 import { Check, RotateCcw } from "lucide-react";
 
+import { emphasizeBrand } from "@/components/ui/emphasize-brand";
 import { MockupFrame } from "@/components/ui/mockup-frame";
 import { Reveal } from "@/components/ui/reveal";
 import { Section } from "@/components/ui/section";
@@ -118,7 +119,7 @@ export function ScriptPlayer({ industry }: { industry: Industry }) {
                 </span>
                 <span className="min-w-0">
                   <span className="block truncate text-[13px] font-semibold text-white">
-                    {script.contactName}
+                    {emphasizeBrand(script.contactName)}
                   </span>
                   <span className="block text-[11px] text-white/75">online</span>
                 </span>

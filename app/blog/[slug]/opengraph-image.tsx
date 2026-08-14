@@ -69,7 +69,15 @@ export default async function Image({ params }: { params: { slug: string } }) {
             padding: "0 80px 64px",
           }}
         >
-          <span style={{ fontSize: "24px", fontWeight: 600, color: "#0F0F0F", letterSpacing: "-0.01em" }}>
+          <span
+            style={{
+              fontSize: "24px",
+              fontWeight: 600,
+              fontStyle: "italic",
+              color: "#0F0F0F",
+              letterSpacing: "-0.01em",
+            }}
+          >
             fizaki
           </span>
           <span

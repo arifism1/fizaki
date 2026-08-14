@@ -4,7 +4,7 @@ import { Pill } from "@/components/ui/pill";
 import { openWhatsApp } from "@/lib/whatsapp";
 
 const WHATSAPP_MESSAGE =
-  "Hi fizaki — I read one of your blog posts and I'd like to know more about the AI lead system for my business.";
+  "Hi _fizaki_ — I read one of your blog posts and I'd like to know more about the AI lead system for my business.";
 
 export function BlogCTA() {
   return (

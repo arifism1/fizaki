@@ -55,6 +55,7 @@ export default async function Image({ params }: { params: { slug: string } }) {
             style={{
               fontSize: "32px",
               fontWeight: 600,
+              fontStyle: "italic",
               color: "#FFFFFF",
               letterSpacing: "-0.02em",
             }}
