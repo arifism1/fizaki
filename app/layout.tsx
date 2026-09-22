@@ -59,6 +59,9 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true, "max-image-preview": "large" },
   },
+  other: {
+    "facebook-domain-verification": "8kfhww6jbm6n15360te82c8ludselt",
+  },
 };
 
 export const viewport: Viewport = {
