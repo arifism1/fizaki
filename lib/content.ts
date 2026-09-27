@@ -183,7 +183,7 @@ export const services = {
       key: "receptionist",
       badge: "Most Loved",
       title: "AI Missed-Call Receptionist",
-      body: "Every missed call gets a WhatsApp reply and a booking link in under 60 seconds. Your phone stays the same number, your staff learn nothing new, and the lead never sits waiting.",
+      body: "Every missed call gets a WhatsApp reply and a booking link in under 60 seconds. Your staff learn nothing new, and the lead never sits waiting.",
     },
     {
       key: "whatsapp",
@@ -261,7 +261,7 @@ export const howItWorks = {
     },
     {
       title: "Install",
-      body: "Your AI receptionist, WhatsApp flows, booking page and tracking go live in about two weeks. No number change, no new app for your staff.",
+      body: "Your AI receptionist, WhatsApp flows, booking page and tracking go live in about two weeks. No new app for your staff.",
     },
     {
       title: "Grow",
@@ -520,10 +520,6 @@ export const faq = {
     {
       q: "How fast can you set this up?",
       a: "About two weeks from the audit to going live. The audit itself takes 20 minutes and costs nothing. Most of the two weeks is us configuring flows around how your business actually works, not you filling in forms.",
-    },
-    {
-      q: "Do I need to change my phone number?",
-      a: "No. Your existing number stays exactly as it is — we set up call forwarding so that when a call goes unanswered, the system picks up the thread on WhatsApp. Nothing changes for the customers who already have your number saved.",
     },
     {
       q: "Will the AI sound robotic?",

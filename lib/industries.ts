@@ -20,7 +20,7 @@ export type Industry = {
   eyebrow: string;
   h1: { lead: string; emphasis: string }; // emphasis renders in italic serif
   sub: string;
-  chips: [string, string, string];
+  chips: string[];
   leaks: { time: string; title: string; body: string }[]; // exactly 4
   calculator: {
     heading: string;
@@ -77,7 +77,6 @@ export const INDUSTRIES: Industry[] = [
     },
     sub: "fizaki answers every missed call, sends the patient a WhatsApp booking link within 60 seconds, and fills the chair — while you're still finishing the root canal.",
     chips: [
-      "Keeps your existing number",
       "Nothing new for your front desk to learn",
       "Live in about 2 weeks",
     ],

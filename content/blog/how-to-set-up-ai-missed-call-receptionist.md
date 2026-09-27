@@ -13,12 +13,12 @@ accent: "brandBlue"
 schema: ["BlogPosting", "FAQPage", "HowTo"]
 ---
 
-To set up an AI missed-call receptionist you need four components: a way to detect unanswered calls, a WhatsApp Business API number to reply from, an AI conversation flow that qualifies the caller and offers appointment slots, and a connected calendar. A working system takes roughly one to three weeks to build, and does not require changing your business phone number.
+To set up an AI missed-call receptionist you need four components: a way to detect unanswered calls, a WhatsApp Business API number to reply from, an AI conversation flow that qualifies the caller and offers appointment slots, and a connected calendar. A working system takes roughly one to three weeks to build.
 
 ## Key takeaways
 
 - Four building blocks: **call detection → instant WhatsApp reply → AI qualification → calendar booking.**
-- Keep your existing number. Detection works via call forwarding or a call-tracking layer.
+- Detection works via call forwarding or a call-tracking layer.
 - The reply must go out in **under 60 seconds** — this is the entire point of the system.
 - Scope the AI narrowly and make human handoff instant and obvious.
 - Meta's WhatsApp Business Verification is the slowest step; start it first.
@@ -29,7 +29,6 @@ To set up an AI missed-call receptionist you need four components: a way to dete
 
 | Component | Purpose | Notes |
 | --- | --- | --- |
-| Business phone number | The number customers already dial | Unchanged — keep it |
 | Call detection method | Knows when a call went unanswered | Forwarding, SIM-based app, or call-tracking service |
 | WhatsApp Business API number | Sends the reply | Must be a separate dedicated number |
 | Meta Business Manager, verified | Required for API access | Start this first, it is the bottleneck |
@@ -165,10 +164,6 @@ A very low escalation rate is a warning sign, not a success — it usually means
 ---
 
 ## Frequently asked questions
-
-### Do I need to change my phone number to set this up?
-
-No. Your existing business number stays exactly as it is. Unanswered calls are forwarded or detected, and the reply is sent from a separate WhatsApp Business API number. Nothing on your signage, cards or Google listing changes.
 
 ### How long does it take to set up an AI missed-call receptionist?
 

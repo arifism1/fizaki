@@ -21,7 +21,7 @@ An AI receptionist is software that automatically responds to a business's incom
 - The most practical version for Indian small businesses is **message-based**, replying on WhatsApp within seconds of a missed call — not a robotic voice on the phone.
 - It is scoped deliberately narrowly: timings, directions, availability, booking, basic triage. Anything advisory goes to a human.
 - It works best as a **safety net**, not a replacement — covering the roughly 30–60% of calls that currently ring out.
-- Setup typically takes around two weeks and does not require changing your phone number.
+- Setup typically takes around two weeks.
 
 ---
 
@@ -117,14 +117,6 @@ The honest way to evaluate it is not the sticker price but the comparison: again
 
 ---
 
-## Do I need to change my phone number?
-
-No. A properly implemented system sits alongside your existing number using call forwarding or missed-call detection. Customers keep dialling the number on your board, your card and your Google listing. Nothing on your signage changes.
-
-This is worth confirming explicitly with any provider before signing, because some cheaper implementations do require a new number — which quietly destroys years of accumulated local visibility.
-
----
-
 ## Who benefits most from an AI receptionist?
 
 The pattern is consistent: **businesses where the person best qualified to answer the phone is the person delivering the service.**
@@ -166,7 +158,7 @@ In a small business, no. It handles the calls and messages nobody was answering 
 
 ## See it working on your own number
 
-fizaki builds AI missed-call receptionists for local service businesses across India, live in about two weeks, with no change to your phone number.
+fizaki builds AI missed-call receptionists for local service businesses across India, live in about two weeks.
 
 [**Book a free lead-leak audit →**](https://fizaki.com/#quote)
 

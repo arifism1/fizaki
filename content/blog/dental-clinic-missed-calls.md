@@ -158,8 +158,6 @@ The boundary is simple and non-negotiable: **the AI handles logistics. Humans ha
 
 **"Is patient data safe?"** WhatsApp conversations are encrypted in transit, but you should confirm where conversation data is stored and who can access it. Ask any vendor this directly.
 
-**"Do I need a new phone number?"** No. Your clinic number stays exactly as it is, on every board, card and listing.
-
 ---
 
 ## Frequently asked questions

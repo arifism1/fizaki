@@ -20,7 +20,7 @@ export function IntegrationStrip({ industry }: { industry: Industry }) {
           </div>
 
           <p className="mt-7 text-[13px] text-inkMuted">
-            No new software for your staff. No number change. Nothing to learn.
+            No new software for your staff. Nothing to learn.
           </p>
         </Reveal>
       </div>
