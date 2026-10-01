@@ -76,7 +76,7 @@ const jsonLd = {
   name: site.name,
   description: site.description,
   url: site.url,
-  email: site.email,
+  telephone: site.phone,
   slogan: site.tagline,
   areaServed: { "@type": "Country", name: "India" },
   serviceType: [

@@ -45,8 +45,7 @@ export const site = {
   name: "fizaki",
   wordmark: "fizaki",
   tagline: "We make sure no lead slips through.",
-  email: "arif@fizaki.com",
-  phone: "9101776379",
+  phone: "+91-9101776379",
   url: "https://fizaki.com",
   description:
     "fizaki builds AI systems that answer, qualify and book your leads in under 60 seconds — for clinics, gyms, solar, interiors, brokers and CAs across India.",

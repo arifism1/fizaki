@@ -86,10 +86,10 @@ export function Footer() {
           </div>
 
           <a
-            href={`mailto:${site.email}`}
+            href={`tel:${site.phone}`}
             className="text-[14px] text-ink transition-colors hover:text-inkBody"
           >
-            {site.email}
+            {site.phone}
           </a>
         </div>
 
